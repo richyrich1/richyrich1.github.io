@@ -4,17 +4,17 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: blue;
 }
 
 h1 {
-    font-size: 24rem;
+    font-size: 12rem;
     color: blue;
 }
 
 h2 {
-    font-size: 18rem;
+    font-size: 9rem;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -22,17 +22,17 @@ h2 {
 header, main, footer {
     margin: 1.25rem auto;
     padding: .5rem;
-    max-width: 16px;
+    max-width: 8px;
 }
 
 header, footer, footer a {
     text-align: center;
     background-color: whitesmoke;
-    color: whitesmoke;
+    color: black;
 }
 
 header img {
-    width: 32px;
+    width: 48px;
     height: auto;
     float: right;
 }
