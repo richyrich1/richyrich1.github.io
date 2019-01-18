@@ -12,8 +12,8 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
-    color: black;
+    font-size: 2rem;
+    color: whitesmoke;
 }
 
 h2 {
@@ -30,7 +30,7 @@ header, main, footer {
 
 header, footer, footer a {
     text-align: center;
-    background-color: black;
+    background-color: gray;
     color: black;
 }
 
