@@ -11,6 +11,11 @@ header img
     float: left;
 }
 
+ul 
+{
+    list-style: none;
+}
+
 html
 {
     background-color: black
