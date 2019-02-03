@@ -6,11 +6,20 @@
 */ 
 header img
 {
-    width: 40px;
-    height: 45px;
+    width: 140px;
+    height: 155px;
     float: left;
+    padding: 0 auto;
+}
+header
+{
+    text-align: end;
 }
 
+.prestonHeader
+{
+    font-size: 1.5em;
+}
 ul 
 {
     list-style: none;
@@ -29,9 +38,18 @@ body
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-header, main, footer
+main
 {
     text-align: center;
+    margin: 1.5rem auto;
+    padding: 0;
+}
+
+footer
+{
+    text-align: center;
+    margin: 1.5rem auto;
+    padding: 0;
     background-color: red;
 }
 
