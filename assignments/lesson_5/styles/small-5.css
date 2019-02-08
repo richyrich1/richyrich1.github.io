@@ -65,9 +65,27 @@ p
 {
     padding: 1rem;
     color: white;
+    
 }
 
+#active
+{
+    background-color:gray;
+}
 
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+table, tr, td
+    {
+        border: solid 1px white;
+        color: white;
+        text-align: center;
+        float: center;
+    }
 
 @media (max-width: 500px)
 {
@@ -78,6 +96,16 @@ p
         width: 100%;
         padding: 1rem;    
     
+    }
+
+    .forecast5
+    {
+        display: none;
+    }
+
+    table
+    {
+        display: none;
     }
 
 
