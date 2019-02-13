@@ -1,0 +1,12 @@
+@media (min-width: 501px)
+{
+    /*.pimg1, .pimg2, .pimg3
+    {
+        background-attachment: fixed;
+    }
+    */
+    #menu
+    {
+        display: none;
+    }
+}

@@ -1,0 +1,112 @@
+/*
+*to tag classes: .classname
+*to tag id: #idname
+*universal selector * {}
+
+*/ 
+header img
+{
+    width: 140px;
+    height: 155px;
+    float: left;
+    padding: 1em;
+}
+header
+{
+    text-align: end;
+    margin: 1rem;
+    padding: 1em;
+}
+
+.prestonHeader
+{
+    font-size: 1.5em;
+}
+ul 
+{
+    list-style: none;
+}
+
+html
+{
+    background-color: black
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    border: auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+main
+{
+    text-align: center;
+    margin: 1.5rem auto;
+    padding: 0;
+    display: inline;
+}
+
+footer
+{
+    text-align: center;
+    margin: 1.5rem auto;
+    padding: 0;
+    background-color: red;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: white;
+}
+
+p
+{
+    padding: 1rem;
+    color: white;
+    
+}
+
+#active
+{
+    background-color:gray;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+table, tr, td
+    {
+        border: solid 1px white;
+        color: white;
+        text-align: center;
+        float: center;
+    }
+
+@media (max-width: 500px)
+{
+
+    #heroimg
+    {
+        float: left;
+        width: 100%;
+        padding: 1rem;    
+    
+    }
+
+    .forecast5
+    {
+        display: none;
+    }
+
+    table
+    {
+        display: none;
+    }
+
+
+}
