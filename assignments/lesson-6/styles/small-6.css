@@ -34,7 +34,7 @@ header
 img
 {
     float: inline-end;
-    width: 31%;
+    width: 32%;
 }
 header .motto
 {
@@ -50,7 +50,7 @@ header .motto
 header .fullmenu
 {
     text-align: center;
-    margin: 3.5px;
+    margin: 23px;
     padding: 0;
     top: 50%;
     color: whitesmoke;
