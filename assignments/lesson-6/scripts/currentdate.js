@@ -49,9 +49,3 @@ year = year.getFullYear();
 
 document.getElementById("copyright-year").innerHTML = days + ', ' + dayNumber + ' ' + months + ' ' + year;
 
-// To make hamburger icon interective
-
-function toggleMenu() 
-{
-	document.getElementsByClassName("fullMenu")[0].classList.toggle("responsive");
-}
