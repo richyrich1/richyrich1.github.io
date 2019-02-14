@@ -75,7 +75,7 @@ a
     background-color: #666;
 }
 
-.pimg1, .pimg2, .pimg3
+.heroimg, .img2, .img3
 {
     position: relative;
     opacity: 0.70;
@@ -89,21 +89,21 @@ a
     background-attachment: fixed;
     
 }
-.pimg1
+.heroimg
 {
-    background-image: url('../images/preston_snow.jpg');
+    background-image: url('../images/preston_snow_large2000px.jpg');
     min-height: 100%;
 }
 
-.pimg2
+.img2
 {
     background-image: url('../images/ironman1.jpg');
     min-height: 400px;
 }
 
-.pimg3
+.img3
 {
-    background-image: url('../images/cit230_image_franklinOriginal.jpg');
+    background-image: url('../images/cit230_imagetext_large2000px.jpg');
     min-height: 400px;
 }
 
@@ -125,7 +125,7 @@ a
     color: #ddd;
 }
 
-.ptext
+.imgtext
 {
     position: absolute;
     top: 50%;
@@ -135,9 +135,10 @@ a
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
-.ptext .border
+.imgtext .border
 {
     background-color: #111;
     color: #fff;
@@ -145,7 +146,7 @@ a
 
 }
 
-.ptext .border .trans
+.imgtext .border .trans
 {
     background-color: transparent;
     color: #fff;
@@ -165,7 +166,7 @@ table, tr, td
 
 table
 {
-    float: center;
+    float: inline-end;
 }
 
 footer
@@ -174,15 +175,55 @@ footer
     color: whitesmoke;
 }
 
-@media (max-width: 500px)
+@media only screen and (max-width: 500px)
 {
-    .pimg1, .pimg2, .pimg3
+    header
+    {
+        display: block;
+        position: relative;
+    }
+
+    img 
+    {
+        display: none;
+    }
+
+    header, .motto
+    {
+        
+        width: 100%;
+        display: -webkit-inline-flex;
+    }
+    
+    .heroimg, .img2, .img3
     {
         background-attachment: scroll;
+    }
+
+    .heroimg
+    {
+        background-image: url(../images/preston_snow_small500px.jpg);
+    }
+
+    .img3
+    {
+        background-image: url(../images/cit230_imagetext_small500px.jpg);
     }
 
     .forecast5
     {
         display: none;
     }
+
+    table
+    {
+        display: none;
+    }
+
+    .imgtext, .border
+    {
+        display: block;
+        color: whitesmoke;
+    }
+
 }
