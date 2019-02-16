@@ -47,7 +47,7 @@ header .motto
     background-color: #000;
 }
 
-header .fullmenu
+header #fullmenu
 {
     text-align: center;
     margin: 23px;
@@ -65,7 +65,7 @@ a
     color: whitesmoke;
 }
 
-.fullmenu li a:hover
+#fullmenu li a:hover
 {
     background-color: #666;
 }
@@ -174,7 +174,10 @@ footer
     text-align: center;
     color: whitesmoke;
 }
-
+.hide
+{
+    display: none;
+}
 @media only screen and (max-width: 500px)
 {
     header
@@ -224,6 +227,12 @@ footer
     {
         display: block;
         color: whitesmoke;
+    }
+
+    ul .hide
+    {
+        display: none;
+
     }
 
 }

@@ -2,5 +2,5 @@
 
 function toggleMenu() 
 {
-	document.getElementsByClassName("fullMenu")[0].classList.toggle("responsive");
+	document.getElementById("fullmenu").classList.toggle("hide");
 }
