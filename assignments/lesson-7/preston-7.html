@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../lesson-7/styles/normalize.css">
+    <link rel="stylesheet" href="../lesson-7/styles/small-7.css">
+    <link rel="stylesheet" href="../lesson-7/styles/large-7.css">
+    <title>Preston Weather</title>
+    <link rel="icon" type="image/jpg" href="../lesson-6/images/probablewebsitelogo.jpg">
+</head>
+
+<body>
+    <header>
+        <img id="mlogo" src="../lesson-7/images/trilogo.jpg" alt="mlogo">
+        <nav>    
+            <button onclick="toggleMenu()" class="hamburger">&#9776;</button>
+            <ul class="hide" id="fullmenu">
+                <li><a href="#">Home</a></li>
+                <li id="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="motto"><h5>Tri Weather is Here for You</h5></div>
+    </header>
+
+        <div class="heroimg">
+            <div class="imgtext">
+                <span class="border">
+                    Preston, ID
+                </span>
+            </div>
+        </div>
+
+        <section class="section section-light">
+            <h2>Current weather and what you should know:</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolore omnis. Inventore sunt soluta, cumque, nesciunt fugit in totam, id ad reiciendis eius voluptas maiores? Deserunt distinctio culpa delectus adipisci. Aliquid explicabo sequi nulla nobis culpa. Nesciunt quasi odit, dolorum quae, obcaecati, expedita maiores error molestias rerum atque totam minima?
+            </p>
+        </section>
+
+        <div class="img2">
+            <div class="imgtext">
+                <div class="border, trans">
+                    <h1 class="forecast5">Forcast for next 5 days</h1>
+            
+                        <table>
+                            <tr>
+                                <td>Wed</td>
+                                <td>Thu</td>
+                                <td>Fri</td>
+                                <td>Sat</td>
+                                <td>Sun</td>
+                            </tr>
+                            <tr>
+                                <td>45&deg;</td>
+                                <td>45&deg;</td>
+                                <td>45&deg;</td>
+                                <td>45&deg;</td>
+                                <td>45&deg;</td>
+                            </tr>
+                        </table>
+                </div>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <h2>Tips for a successful trainning</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum error debitis delectus adipisci! Quos neque natus ad hic, voluptate nesciunt quisquam earum, a sed, ullam ipsam? Itaque nisi qui provident totam, voluptatum recusandae mollitia reiciendis ipsam praesentium dolor quidem quos possimus, exercitationem iure distinctio odio dolorem porro accusantium. Fugiat aspernatur magnam at maiores et distinctio, repellendus dignissimos odio accusamus mollitia alias molestiae incidunt illum libero iusto fugit cumque doloremque voluptates explicabo? Autem, tempora? Aspernatur voluptates reprehenderit eveniet neque iusto, amet accusamus repellat expedita harum quo repudiandae provident perferendis ducimus, voluptate porro velit ratione alias. Debitis odio amet voluptas incidunt aliquam.
+            </p>
+        </section>
+
+        <div class="img3">
+            <div class="imgtext">
+                <span class="border, trans">
+                    Dedicate yourself and you will find yourself standing in the hall of fame.
+                </span>
+            </div>
+        </div>
+            
+        <section class="section section-dark">
+            <h2>Interesting facts about Preston</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum error debitis delectus adipisci! Quos neque natus ad hic, voluptate nesciunt quisquam earum, a sed, ullam ipsam? Itaque nisi qui provident totam, voluptatum recusandae mollitia reiciendis ipsam praesentium dolor quidem quos possimus, exercitationem iure distinctio odio dolorem porro accusantium. Fugiat aspernatur magnam at maiores et distinctio, repellendus dignissimos odio accusamus mollitia alias molestiae incidunt illum libero iusto fugit cumque doloremque voluptates explicabo? Autem, tempora? Aspernatur voluptates reprehenderit eveniet neque iusto, amet accusamus repellat expedita harum quo repudiandae provident perferendis ducimus, voluptate porro velit ratione alias. Debitis odio amet voluptas incidunt aliquam.
+            </p>
+        </section>
+
+        <div class="heroimg">
+            <div class="imgtext">
+                <span class="border">
+                DO IT FOR YOUR COUNTRY, DO IT FOR YOUR NAME.
+                </span>
+            </div>
+        </div>
+    
+    <footer>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.77385344882!2d-111.91534447868689!3d42.09974162637601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1549480115357" width="100%" frameborder="0" style= " margin-top: 10px; margin-bottom: 0; margin-left:10px; margin-right: 10px;" allowfullscreen></iframe>
+        </div>
+        <p>&copy; <span id="copyright-year"></span> | triweather.com | +1(208)757-8035 Rexburg, ID</p>    
+    </footer>
+    <script src="../lesson-7/scripts/currentdate.js"></script>
+    <script src="../lesson-7/scripts/hamburger.js"></script>
+    <script src="../lesson-7/scripts/windchill.js"></script>
+<!--to make the browser pick the size of the image
+* <figure>
+    <img src="where the file is" alt="Biggest image">
+    srcset="location of file" 400w,
+</figure>-->
+</body>
+</html>
