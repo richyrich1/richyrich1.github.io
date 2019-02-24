@@ -1,9 +1,14 @@
-@media only screen and(min-width: 501px) and (max-width: 760px)
+@media screen and (min-width: 501px) and (max-width: 760px)
 {
     .grid
     {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
+    }
+
+    .hamburger
+    {
+        display: none;
     }
 }

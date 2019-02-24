@@ -189,7 +189,11 @@ footer
 {
     display: grid;
     background-color: whitesmoke;
-    grid-gap: 20px;
+}
+
+img
+{
+    box-shadow: 5px 5px 5px #666;
 }
 
 /*.grid {
@@ -205,7 +209,7 @@ footer
     for medium @media screen and (min-width: 501px)  and ( max-width: 1200px) {}
     
 */
-@media only screen and (max-width: 500px)
+@media screen and (max-width: 500px)
 {
     header
     {
@@ -253,6 +257,7 @@ footer
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 20px;
+        grid-column: auto;
         
     }
 

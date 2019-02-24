@@ -15,8 +15,9 @@
 
     .grid:hover
     {
-        box-shadow: 10px;
-    
+        box-shadow: 10px 10px 8px #666;
+        text-shadow: 5px 5px 5px #666;
+        
     }
 
     /*.imgtext, .border
