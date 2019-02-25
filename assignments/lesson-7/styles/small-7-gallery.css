@@ -196,6 +196,11 @@ img
     box-shadow: 5px 5px 5px #666;
 }
 
+#mlogo
+{
+    box-shadow: none;
+}
+
 /*.grid {
     display: grid;
     gird-template-columns: 1fr (for small view) 
