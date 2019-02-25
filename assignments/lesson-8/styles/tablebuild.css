@@ -6,12 +6,15 @@ body
 main
 {
     padding: 30px;
+    display: flex;
+    justify-content: center; 
 }
 
 table
 {
-    box-shadow: 10px 10px 20px #666;
+    box-shadow: 10px 10px 20px #666;   
 }
+
 table, th, td, th
 {
     border: 1px solid gray;
