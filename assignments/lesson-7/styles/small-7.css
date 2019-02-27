@@ -273,8 +273,9 @@ textarea
 
 .heroimgStormCenter
 {
-    background-image: url('../../lesson-6/images/soda-hero.jpg');
+    background-image: url('../../lesson-7/images/thunderstorm.jpg');
     min-height: 100%;
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 500px)

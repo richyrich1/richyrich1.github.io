@@ -55,19 +55,48 @@
 
                 <fieldset>
                     <legend>Storm Details</legend>
-                    <div>City</div>
-                    <label class="sbs"><input type="radio" name="city" value="preston">Preston</label>
-                    <label class="sbs"><input type="radio" name="city" value="sodaSprings">Soda Springs</label>
-                    <label class="sbs"><input type="radio" name="city" value="fishHaven">Fish Haven</label>
-                    <label class="sbs"><input type="radio" name="city" value="other">Other</label>                   
+                    <label class="top">Storm Date <input type="date" name="stromDate"></label>
+                    
+                    <label class="top">Storm Type <input list="stormTypes">
+                        <datalist id="stormTypes">
+                            <option value="Flash Flood"></option>
+                            <option value="Hail"></option>
+                            <option value="Hurricane"></option>
+                            <option value="Thunderstorm"></option>
+                            <option value="Tornado"></option>
+                            <option value="Other"></option>
+                        </datalist>
+                    </label>
+
+                    <label class="top">Storm Severity (1 to 10): 
+                        <input type="range" name="stormLevel" min="1" max="10"> 
+                    </label>
+
+
+                    <label class="top">
+                        Storm Region
+                        <select name="city" id="">
+                            <option value="">Select a region</option>
+                            <option value="preston">Preston</option>
+                            <option value="sodaSprings">Soda Springs</option>
+                            <option value="fishHaven">Fish Haven</option>
+                            <option value="otherCity">Other</option>
+                        </select>
+                    </label>
+
+                    <div>In-Danger Level</div>
+                    <label class="sbs"><input type="radio" name="dangerLevel" value="yes">Yes</label>
+                    <label class="sbs"><input type="radio" name="dangerLevel" value="maybe">Maybe</label>
+                    <label class="sbs"><input type="radio" name="dangerLevel" value="no">No</label>
+
                 </fieldset>
 
                 <fieldset>
-                    <legend>What is the weather like around you?</legend>
+                    <legend>Additional Information</legend>
                     <label class="top"><textarea name="textarea" id="weatherReport" cols="80" rows="10"></textarea></label>
                 </fieldset>
 
-                <input type="submit" value="Report Now!" class="submitBtn">
+                <input type="submit" value="Send Report Now!" class="submitBtn">
             </form>
         </section>
 
