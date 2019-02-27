@@ -263,6 +263,14 @@ form fieldset
     text-align: left;
 }
 
+textarea
+{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 100%;
+}
+
 @media only screen and (max-width: 500px)
 {
     html
