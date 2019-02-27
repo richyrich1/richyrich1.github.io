@@ -11,4 +11,17 @@
     {
         display: none;
     }
+
+    header .hide
+    {
+        display: contents;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #mlogo
+    {
+        max-width: 25%;
+    }
+
 }

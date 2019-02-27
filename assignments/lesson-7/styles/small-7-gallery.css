@@ -36,7 +36,7 @@ header
 img
 {
     float: inline-end;
-    width: 32%;
+    max-width: 100%;
 }
 header .motto
 {
@@ -51,18 +51,23 @@ header .motto
 
 header .hide
 {
+    display: none;
+    list-style: none;
+}
+
+.navstyle
+{
     text-align: center;
     margin: 23px;
     padding: 0;
     top: 50%;
     color: whitesmoke;
     text-decoration: none;
-    display: flex;
-    flex-flow: row wrap;
+    display: inline-flex;
+    flex-direction: column;
     /*flex-wrap: nowrap;*/
-    justify-content: space-around;
-    align-items: flex-end;
-    list-style: none;
+    justify-content: space-between;
+    align-items: center;
 }
 
 a
@@ -172,7 +177,8 @@ table, tr, td
 
 table
 {
-    float: inline-end;
+    display: flex;
+    justify-content: center;
 }
 
 footer
@@ -264,6 +270,12 @@ img
         grid-gap: 20px;
         grid-column: auto;
         
+    }
+
+    #mlogo
+    {
+        max-width: 25%;
+        display: none;
     }
 
 }

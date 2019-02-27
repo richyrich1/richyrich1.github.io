@@ -36,7 +36,7 @@ header
 img
 {
     float: inline-end;
-    width: 32%;
+    max-width: 100%;
 }
 header .motto
 {
@@ -51,6 +51,11 @@ header .motto
 
 header .hide
 {
+    display: none;
+}
+
+.navstyle
+{
     text-align: center;
     margin: 23px;
     padding: 0;
@@ -58,7 +63,7 @@ header .hide
     color: whitesmoke;
     text-decoration: none;
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     /*flex-wrap: nowrap;*/
     justify-content: space-between;
     align-items: center;
@@ -172,7 +177,8 @@ table, tr, td
 
 table
 {
-    float: inline-end;
+    display: flex;
+    justify-content: center;
 }
 
 footer
@@ -200,6 +206,11 @@ footer
 */
 @media only screen and (max-width: 500px)
 {
+    html
+    {
+        padding: none;
+    }
+    
     header
     {
         display: block;

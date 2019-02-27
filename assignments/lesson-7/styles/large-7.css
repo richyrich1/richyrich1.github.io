@@ -20,6 +20,14 @@
         
     }
 
+    header .hide
+    {
+        display: contents;
+        display: flex;
+        flex-direction: row;
+    }
+
+
     /*.imgtext, .border
     {
         display: block;
