@@ -52,7 +52,6 @@ header .motto
 header .hide
 {
     display: none;
-    list-style: none;
 }
 
 .navstyle
@@ -68,6 +67,7 @@ header .hide
     /*flex-wrap: nowrap;*/
     justify-content: space-between;
     align-items: center;
+    list-style: none;
 }
 
 a
