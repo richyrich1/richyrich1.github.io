@@ -271,6 +271,12 @@ textarea
     max-width: 100%;
 }
 
+.heroimgStormCenter
+{
+    background-image: url('../../lesson-6/images/soda-hero.jpg');
+    min-height: 100%;
+}
+
 @media only screen and (max-width: 500px)
 {
     html
