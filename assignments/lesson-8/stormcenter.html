@@ -46,11 +46,10 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Hero Information</legend>
-                    <label class="top">First Name* <input type="text" name="fname" required></label>
-                    <label class="top">Last Name* <input type="text" name="lname" required></label>
-                    <label class="top">Email <input type="email" name="email" placeholder="some@gmail.com"></label>
-                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                    <label class="top zipCode">Zip Code* <input type="zipCode" name="zipCode" required></label>
+                    <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Z]{.10}" minlength="5" maxlength="20" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="some@gmail.com" maxlength="20"></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" pattern="[1-9] {10}" maxlength="10" required></label>
+                    <label class="top zipCode">Zip Code* <input type="zipCode" name="zipCode" pattern="[1-9] {5}" maxlength="5" required></label>
                 </fieldset>
 
                 <fieldset>
@@ -67,12 +66,12 @@
                             <option value="Other"></option>
                         </datalist>
                     </label>
-
+                    
                     <label class="top">Storm Severity (1 to 10): 
-                        <input type="range" name="stormLevel" min="1" max="10"> 
+                        <input type="range" name="rating" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <div id="ratingvalue">5</div><br> 
                     </label>
-
-
+                    
                     <label class="top">
                         Storm Region
                         <select name="city" id="">
@@ -106,5 +105,6 @@
     <script src="../lesson-7/scripts/currentdate.js"></script>
     <script src="../lesson-7/scripts/hamburger.js"></script>
     <script src="../lesson-7/scripts/windchill.js"></script>
+    <script src="./script/range.js"></script>
 </body>
 </html>

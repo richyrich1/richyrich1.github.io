@@ -283,6 +283,14 @@ form label.top.zipCode
     max-width: 15%;
 }
 
+#ratingvalue
+{
+    display: flex;
+    justify-content: center;
+    color: #666;
+    font-size: 2rem;
+}
+
 @media only screen and (max-width: 500px)
 {
     html
