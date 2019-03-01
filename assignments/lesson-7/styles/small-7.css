@@ -286,7 +286,7 @@ form label.top.zipCode
 #ratingvalue
 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     color: #666;
     font-size: 2rem;
 }
