@@ -291,6 +291,68 @@ form label.top.zipCode
     font-size: 2rem;
 }
 
+/* for home page only */
+
+.currentWeather
+{
+    color: #666;
+}
+
+.tableHome .trHome .tdHome
+{
+    border: solid 1px #666;
+    color: #666;
+    text-align: center;
+}
+
+table
+{
+    display: flex;
+    justify-content: center;
+}
+
+.gridHome
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-column: auto;
+}
+
+article > h1
+{
+    color: #9c2c13;
+}
+
+.prestonHome
+{
+    background-color: whitesmoke;
+    color: #666;
+    border: 15px solid #ddd;
+    box-shadow: 10px 10px 20px #9c2c13;
+}
+
+.sodaHome
+{
+    background-color: whitesmoke;
+    color: #666;
+    border: 15px solid #ddd;
+    box-shadow: 10px 10px 20px #9c2c13;
+}
+
+.fishHome
+{
+    background-color: whitesmoke;
+    color: #666;
+    border: 15px solid #ddd;
+    box-shadow: 10px 10px 20px #9c2c13;
+}
+
+b, #prestonMotto, #sodaMotto, #fishMotto
+{
+    color: black;
+}
+
 @media only screen and (max-width: 500px)
 {
     html
@@ -304,10 +366,14 @@ form label.top.zipCode
         position: relative;
     }
 
-    img 
+    #mlogo
     {
         display: none;
     }
+    /*img 
+    {
+        display: none;
+    }*/
 
     header, .motto
     {
@@ -351,6 +417,12 @@ form label.top.zipCode
     {
         display: none;
 
+    }
+
+    .gridHome
+    {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
 }

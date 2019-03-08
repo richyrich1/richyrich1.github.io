@@ -24,4 +24,9 @@
         max-width: 25%;
     }
 
+    .gridHome
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
