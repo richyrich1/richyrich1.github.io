@@ -1,0 +1,280 @@
+/*
+*to tag classes: .classname
+*to tag id: #idname
+*universal selector * {}
+
+*/ 
+
+body, html 
+{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    background-color: #000;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    height: 15%;
+    position: sticky;
+    top: 0;
+    background-color: lightcoral;
+}
+
+img
+{
+    float: inline-end;
+    max-width: 100%;
+}
+header .motto
+{
+    text-align: center;
+    font-size: 2em;
+    width: 36%;
+    margin: 0;
+    padding: 0.1em;
+    color: whitesmoke;
+    background-color: #000;
+}
+
+header .hide
+{
+    display: none;
+}
+
+.navstyle
+{
+    text-align: center;
+    padding: 0;
+    top: 50%;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: column;
+    /*flex-wrap: nowrap;*/
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#fullmenu li a:hover
+{
+    background-color: #666;
+}
+
+#active
+{
+    background-color: #666;
+}
+
+.heroimg/*, .img2, .img3*/
+{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* 
+        fixed = parallax
+        scroll = normal
+    */
+    background-attachment: fixed;
+    
+}
+.heroimg
+{
+    background-image: url('../images/ironman1.jpg');
+    min-height: 100%;
+}
+
+.img2
+{
+    background-image: url('../images/ironman1.jpg');
+    min-height: 400px;
+}
+
+.img3
+{
+    background-image: url('../images/cit230_imagetext_large2000px.jpg');
+    min-height: 400px;
+}
+
+.section
+{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light
+{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark
+{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.imgtext
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.imgtext .border
+{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.imgtext .border .trans
+{
+    background-color: transparent;
+    color: #fff;
+}
+
+.forecast5
+{
+    color: whitesmoke;
+}
+
+table, tr, td
+{
+    border: solid 1px whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+}
+
+table
+{
+    display: flex;
+    justify-content: center;
+}
+
+footer
+{
+    text-align: center;
+    color: whitesmoke;
+}
+.hide
+{
+    display: none;
+}
+
+.grid
+{
+    display: grid;
+    background-color: whitesmoke;
+}
+
+img
+{
+    box-shadow: 5px 5px 5px #666;
+}
+
+#mlogo
+{
+    box-shadow: none;
+}
+
+/*.grid {
+    display: grid;
+    gird-template-columns: 1fr (for small view) 
+    1fr 1fr (for my medium view) 1fr 1fr 1fr (for large)
+}
+    .shadow:hover (onlu on large view)
+    {
+        (lookup for box shadow)
+    }
+
+    for medium @media screen and (min-width: 501px)  and ( max-width: 1200px) {}
+    
+*/
+@media screen and (max-width: 500px)
+{
+    header
+    {
+        display: block;
+        position: relative;
+    }
+
+    header, .motto
+    {
+        
+        width: 100%;
+        display: -webkit-inline-flex;
+    }
+    
+    .heroimg, .img2, .img3
+    {
+        background-attachment: scroll;
+    }
+
+
+    .forecast5
+    {
+        display: none;
+    }
+
+    table
+    {
+        display: none;
+    }
+
+    .imgtext, .border
+    {
+        display: block;
+        color: whitesmoke;
+    }
+
+    ul .hide
+    {
+        display: none;
+
+    }
+
+    .grid
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        grid-column: auto;
+        
+    }
+
+    #mlogo
+    {
+        max-width: 25%;
+        display: none;
+    }
+
+}

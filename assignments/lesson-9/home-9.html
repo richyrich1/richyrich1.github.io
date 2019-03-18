@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../lesson-7/styles/normalize.css">
+    <link rel="stylesheet" href="../lesson-7/styles/small-7.css">
+    <link rel="stylesheet" href="../lesson-7/styles/medium-7.css">
+    <link rel="stylesheet" href="../lesson-7/styles/large-7.css">
+    <title>Tri Weather Home Page</title>
+    <link rel="icon" type="image/jpg" href="../lesson-6/images/probablewebsitelogo.jpg">
+</head>
+
+<body>
+   <header>
+        <img id="mlogo" src="../lesson-7/images/trilogo.jpg" alt="mlogo">
+        <nav>    
+            <button onclick="toggleMenu()" class="hamburger">&#9776;</button>
+            <ul class="hide navstyle" id="fullmenu">
+                <li id="active"><a href="#">Home</a></li>
+                <li><a href="../lesson-7/preston-7.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="../lesson-8/stormcenter.html">Storm Center</a></li>
+                <li><a href="../lesson-7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="motto"><h5>Tri Weather is Here for You</h5></div>
+    </header>
+
+        <div class="heroimg">
+            <div class="imgtext">
+                <span class="border">
+                    Tri Weather Home Page
+                </span>
+            </div>
+        </div>
+
+        <section class="section section-light">
+            <h1>Tri Weather News</h1>
+                <div>
+                    <h2 class="currentWeather">Current Weather</h2>
+                
+                       <table class="tableHome">
+                            <tr class="trHome">
+                                <td class="tdHome">Preston</td>
+                                <td class="tdHome">Fish Haven</td>
+                                <td class="tdHome">Soda Springs</td>
+                            </tr>
+                            <tr class="trHome">
+                                <td class="tdHome">45&deg;</td>
+                                <td class="tdHome">45&deg;</td>
+                                <td class="tdHome">45&deg;</td>                            </tr>
+                            </tr>
+                        </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-dark gridHome">
+            <figure class="prestonHome">
+                <figcaption>
+                    <article>
+                        <h1>Preston</h1>
+                        <h3 id="prestonMotto"></h3>
+                        <h3 id="prestonFounded"><b>Year Founded:</b> </h3>
+                        <h3 id="prestonPop"><b>Population:</b> </h3>
+                        <h3 id="prestonAnnual"><b>Annual Rain Fall:</b> </h3>
+                    </article>
+                </figcaption>
+               <a href="../lesson-7/preston-7.html"><img src="../lesson-6/images/gal1.jpg" alt="gal image 1"></a>
+            </figure>
+            <figure class="sodaHome">
+                <figcaption>
+                    <article>
+                        <h1>Soda Springs</h1>
+                        <h3 id="sodaMotto"></h3>
+                        <h3 id="sodaFounded"><b>Year Founded:</b> </h3>
+                        <h3 id="sodaPop"><b>Population:</b> </h3>
+                        <h3 id="sodaAnnual"><b>Annual Rain Fall:</b> </h3>
+                    </article>
+                </figcaption>
+               <a href="#"><img src="../lesson-7/images/gal5-550px.jpg" alt="gal image 2"></a>
+            </figure>
+            <figure class="fishHome">
+                <figcaption>
+                    <article>
+                        <h1>Fish Haven</h1>
+                        <h3 id="fishMotto"></h3>
+                        <h3 id="fishFounded"><b>Year Founded:</b> </h3>
+                        <h3 id="fishPop"><b>Population:</b> </h3>
+                        <h3 id="fishAnnual"><b>Annual Rain Fall:</b> </h3>
+                    </article>
+                </figcaption>
+                <a href="#"><img src="../lesson-7/images/gal3-600px.jpg" alt="gal image 3"></a>
+            </figure>
+        </section>
+
+    <footer>
+        
+        <p>&copy; <span id="copyright-year"></span> | triweather.com | +1(208)757-8035 Rexburg, ID</p>    
+    </footer>
+    <script src="../lesson-7/scripts/currentdate.js"></script>
+    <script src="../lesson-7/scripts/hamburger.js"></script>
+    <script src="../lesson-7/scripts/windchill.js"></script>
+    <script src="scripts/homeJson.js"></script>
+</body>
+</html>

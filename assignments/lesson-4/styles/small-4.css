@@ -1,0 +1,64 @@
+/*
+*to tag classes: .classname
+*to tag id: #idname
+*universal selector * {}
+
+*/ 
+header img
+{
+    width: 140px;
+    height: 155px;
+    float: left;
+    padding: 0 auto;
+}
+header
+{
+    text-align: end;
+}
+
+.prestonHeader
+{
+    font-size: 1.5em;
+}
+ul 
+{
+    list-style: none;
+}
+
+html
+{
+    background-color: black
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    border: auto;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+main
+{
+    text-align: center;
+    margin: 1.5rem auto;
+    padding: 0;
+}
+
+footer
+{
+    text-align: center;
+    margin: 1.5rem auto;
+    padding: 0;
+    background-color: red;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: white;
+}
+
+p
+{
+    color: white;
+}
