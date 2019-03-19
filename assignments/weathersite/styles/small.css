@@ -1,0 +1,428 @@
+/*
+*to tag classes: .classname
+*to tag id: #idname
+*universal selector * {}
+
+*/ 
+
+body, html 
+{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    background-color: #000;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    height: 15%;
+    position: sticky;
+    top: 0;
+    background-color: lightcoral;
+}
+
+img
+{
+    float: inline-end;
+    max-width: 100%;
+}
+header .motto
+{
+    text-align: center;
+    font-size: 2em;
+    width: 36%;
+    margin: 0;
+    padding: 0.1em;
+    color: whitesmoke;
+    background-color: #000;
+}
+
+header .hide
+{
+    display: none;
+}
+
+.navstyle
+{
+    text-align: center;
+    padding: 0;
+    top: 50%;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: column;
+    /*flex-wrap: nowrap;*/
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#fullmenu li a:hover
+{
+    background-color: #666;
+}
+
+#active
+{
+    background-color: #666;
+}
+
+.heroimg, .img2, .img3
+{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* 
+        fixed = parallax
+        scroll = normal
+    */
+    background-attachment: fixed;
+    
+}
+.heroimg
+{
+    background-image: url('../images/preston_snow_large2000px.jpg');
+    min-height: 100%;
+}
+
+.img2
+{
+    background-image: url('../images/ironman1.jpg');
+    min-height: 400px;
+}
+
+.img3
+{
+    background-image: url('../images/cit230_imagetext_large2000px.jpg');
+    min-height: 400px;
+}
+
+.section
+{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light
+{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark
+{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.imgtext
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.imgtext .border
+{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.imgtext .border .trans
+{
+    background-color: transparent;
+    color: #fff;
+}
+
+.forecast5
+{
+    color: whitesmoke;
+}
+
+table, tr, td
+{
+    border: solid 1px whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+}
+
+table
+{
+    display: flex;
+    justify-content: center;
+}
+
+footer
+{
+    text-align: center;
+    color: whitesmoke;
+}
+.hide
+{
+    display: none;
+}
+
+/*
+This is specificaly for stormcenter 
+*/
+form fieldset
+{
+    margin: 2rem 0;
+    border: 1ps solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend
+{
+    color: #666;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div
+{
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select
+{
+    display: block;
+    font-size: 1rem;
+    border: solid 1ps #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 80%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0,0.1);
+}
+
+form label.sbs
+{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input.submitBtn
+{
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required
+{
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid
+{
+    border-left: green solid 6px;
+}
+
+form fieldset
+{
+    text-align: left;
+}
+
+textarea
+{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 100%;
+}
+
+.heroimgStormCenter
+{
+    background-image: url('../../lesson-7/images/thunderstorm.jpg');
+    min-height: 100%;
+    max-width: 100%;
+}
+
+form label.top.zipCode
+{
+    max-width: 15%;
+}
+
+#ratingvalue
+{
+    display: flex;
+    justify-content: flex-start;
+    color: #666;
+    font-size: 2rem;
+}
+
+/* for home page only */
+
+.currentWeather
+{
+    color: #666;
+}
+
+.tableHome .trHome .tdHome
+{
+    border: solid 1px #666;
+    color: #666;
+    text-align: center;
+}
+
+table
+{
+    display: flex;
+    justify-content: center;
+}
+
+.gridHome
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-column: auto;
+}
+
+article > h1
+{
+    color: #9c2c13;
+}
+
+.prestonHome
+{
+    background-color: whitesmoke;
+    color: #666;
+    border: 15px solid #ddd;
+    box-shadow: 10px 10px 20px #9c2c13;
+}
+
+.sodaHome
+{
+    background-color: whitesmoke;
+    color: #666;
+    border: 15px solid #ddd;
+    box-shadow: 10px 10px 20px #9c2c13;
+}
+
+.fishHome
+{
+    background-color: whitesmoke;
+    color: #666;
+    border: 15px solid #ddd;
+    box-shadow: 10px 10px 20px #9c2c13;
+}
+
+b, #prestonMotto, #sodaMotto, #fishMotto
+{
+    color: black;
+}
+
+@media only screen and (max-width: 500px)
+{
+    html
+    {
+        padding: none;
+    }
+    
+    header
+    {
+        display: block;
+        position: relative;
+    }
+
+    #mlogo
+    {
+        display: none;
+    }
+    /*img 
+    {
+        display: none;
+    }*/
+
+    header, .motto
+    {
+        
+        width: 100%;
+        display: -webkit-inline-flex;
+    }
+    
+    .heroimg, .img2, .img3
+    {
+        background-attachment: scroll;
+    }
+
+    .heroimg
+    {
+        background-image: url(../images/preston_snow_small500px.jpg);
+    }
+
+    .img3
+    {
+        background-image: url(../images/cit230_imagetext_small500px.jpg);
+    }
+
+    .forecast5
+    {
+        display: none;
+    }
+
+    table
+    {
+        display: none;
+    }
+
+    .imgtext, .border
+    {
+        display: block;
+        color: whitesmoke;
+    }
+
+    ul .hide
+    {
+        display: none;
+
+    }
+
+    .gridHome
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">    
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Fish Haven Weather</title>
+    <link rel="icon" type="image/jpg" href="images/probablewebsitelogo.jpg">
+</head>
+
+<body>
+    <header>
+        <img id="mlogo" src="images/trilogo.jpg" alt="mlogo">
+        <nav>    
+            <button onclick="toggleMenu()" class="hamburger">&#9776;</button>
+            <ul class="hide navstyle" id="fullmenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodaSprings.html">Soda Springs</a></li>
+                <li id="active">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="motto"><h5>Tri Weather is Here for You</h5></div>
+    </header>
+
+        <div class="heroimg">
+            <div class="imgtext">
+                <span class="border">
+                    Fish Haven, ID
+                </span>
+            </div>
+        </div>
+
+        <section class="section section-light">
+            <h1>Weather Summary</h1>
+                    <p>Currently: <span id="currently"></span><div><img id="currentWeatherIcon" src="" alt="Current Icon"></div></p>
+                    <p>Temperature: <span id="temperature"></span>&deg;F</p>
+                    <p>Humidity: <span id="humidity"></span>&percnt;</p>
+                    <!--<p>Precipitation: <span id="precipitation"></span> inch</p>-->
+                    <p>Wind Speed: <span id="windSpeed2"></span> mph</p><br>                    
+            
+        </section>
+
+        <div class="img2">
+            <div class="imgtext">
+                <div class="border, trans">
+                    
+                    <!--<h1 class="forecast5">Forcast for next 5 days</h1>
+                        <table>
+                            <tr>
+                                <td><span id="dateDay1"></span>Wed</td>
+                                <td><span id="dateDay2"></span>Thu</td>
+                                <td><span id="dateDay3"></span>Fri</td>
+                                <td><span id="dateDay4"></span>Sat</td>
+                                <td><span id="dateDay5"></span>Sun</td>
+                            </tr>
+                            <tr>
+                                <td><span id="day1"></span>&deg;</td>
+                                <td><span id="day2"></span>&deg;</td>
+                                <td><span id="day3"></span>&deg;</td>
+                                <td><span id="day4"></span>&deg;</td>
+                                <td><span id="day5"></span>&deg;</td>
+                            </tr>
+                        </table>-->
+                </div>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <!--<h2>Tips for a successful trainning</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum error debitis delectus adipisci! Quos neque natus ad hic, voluptate nesciunt quisquam earum, a sed, ullam ipsam? Itaque nisi qui provident totam, voluptatum recusandae mollitia reiciendis ipsam praesentium dolor quidem quos possimus, exercitationem iure distinctio odio dolorem porro accusantium. Fugiat aspernatur magnam at maiores et distinctio, repellendus dignissimos odio accusamus mollitia alias molestiae incidunt illum libero iusto fugit cumque doloremque voluptates explicabo? Autem, tempora? Aspernatur voluptates reprehenderit eveniet neque iusto, amet accusamus repellat expedita harum quo repudiandae provident perferendis ducimus, voluptate porro velit ratione alias. Debitis odio amet voluptas incidunt aliquam.
+            </p>-->
+            <h1 class="forecast5">Forcast for next 5 days</h1>
+            <table>
+                <tr>
+                    <td><span id="dateDay1"></span>Day 1</td>
+                    <td><span id="dateDay2"></span>Day 2</td>
+                    <td><span id="dateDay3"></span>Day 3</td>
+                    <td><span id="dateDay4"></span>Day 4</td>
+                    <td><span id="dateDay5"></span>Day 5</td>
+                </tr>
+                <tr>
+                    <td><span id="day1"></span> &deg;F</td>
+                    <td><span id="day2"></span> &deg;F</td>
+                    <td><span id="day3"></span> &deg;F</td>
+                    <td><span id="day4"></span> &deg;F</td>
+                    <td><span id="day5"></span> &deg;F</td>
+                </tr>
+                <tr>
+                    <td><img id="weatherIcon1" src="" alt="Forecast Icon1"></td>
+                    <td><img id="weatherIcon2" src="" alt="Forecast Icon2"></td>
+                    <td><img id="weatherIcon3" src="" alt="Forecast Icon3"></td>
+                    <td><img id="weatherIcon4" src="" alt="Forecast Icon4"></td>
+                    <td><img id="weatherIcon5" src="" alt="Forecast Icon5"></td>
+                </tr>
+            </table>
+        </section>
+
+        <div class="img3">
+            <div class="imgtext">
+                <span class="border, trans">
+                    Dedicate yourself and you will find yourself standing in the hall of fame.
+                </span>
+            </div>
+        </div>
+            
+        <section class="section section-dark">
+            <h2>Interesting facts about Preston</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum error debitis delectus adipisci! Quos neque natus ad hic, voluptate nesciunt quisquam earum, a sed, ullam ipsam? Itaque nisi qui provident totam, voluptatum recusandae mollitia reiciendis ipsam praesentium dolor quidem quos possimus, exercitationem iure distinctio odio dolorem porro accusantium. Fugiat aspernatur magnam at maiores et distinctio, repellendus dignissimos odio accusamus mollitia alias molestiae incidunt illum libero iusto fugit cumque doloremque voluptates explicabo? Autem, tempora? Aspernatur voluptates reprehenderit eveniet neque iusto, amet accusamus repellat expedita harum quo repudiandae provident perferendis ducimus, voluptate porro velit ratione alias. Debitis odio amet voluptas incidunt aliquam.
+            </p>
+        </section>
+
+        <div class="heroimg">
+            <div class="imgtext">
+                <span class="border">
+                DO IT FOR YOUR COUNTRY, DO IT FOR YOUR NAME.
+                </span>
+            </div>
+        </div>
+    
+    <footer>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11852.958830505177!2d-111.40486806217935!3d42.03803991735526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish+Haven%2C+ID+83287!5e0!3m2!1sen!2sus!4v1553037781853" width="100%" frameborder="0" style= " margin-top: 10px; margin-bottom: 0; margin-left:10px; margin-right: 10px;" allowfullscreen></iframe>
+        </div>
+        <p>&copy; <span id="copyright-year"></span> | triweather.com | +1(208)757-8035 Rexburg, ID</p>    
+    </footer>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weatherapi-fishHaven.js"></script>
+</body>
+</html>

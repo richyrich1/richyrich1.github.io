@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small-gallery.css">
+    <link rel="stylesheet" href="styles/medium.css">    
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Gallery</title>
+    <link rel="icon" type="image/jpg" href="images/probablewebsitelogo.jpg">
+</head>
+
+<body>
+    <header>
+        <img id="mlogo" src="images/trilogo.jpg" alt="mlogo">
+        <nav>    
+            <button onclick="toggleMenu()" class="hamburger">&#9776;</button>
+            <ul class="hide navstyle" id="fullmenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li  id="active"><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="motto"><h5>Tri Weather is Here for You</h5></div>
+    </header>
+
+        <div class="heroimg">
+            <div class="imgtext">
+                <span class="border">
+                    Gallery
+                </span>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <h2>Current weather and what you should know:</h2>
+            <span>Temp: </span><span id="temp"></span>
+            <span>Wind Speed: </span><span id="windSpeed"></span>
+            <span>Wind Chill: </span><span id="windChill"></span>
+        </section>
+    
+        <section class="grid">
+            <figure class="shadow">
+                <img src="images/gal1-550px.jpg" alt="gal image 1">
+                <figcaption>Image Text 1</figcaption>
+            </figure>
+            <figure class="shadow">
+                <img src="images/gal2-800px.jpg" alt="gal image 2">
+                <figcaption>Image Text 2</figcaption>
+            </figure>
+            <figure class="shadow">
+                <img src="images/gal3-600px.jpg" alt="gal image 3">
+                <figcaption>Image Text 3</figcaption>
+            </figure>
+            <figure class="shadow">
+                <img src="images/gal4-550px.jpg" alt="gal image 4">
+                <figcaption>Image Text 4</figcaption>
+            </figure>
+            <figure class="shadow">
+                <img src="images/gal5-550px.jpg" alt="gal image 5">
+                <figcaption>Image Text 5</figcaption>
+            </figure>
+            <figure class="shadow">
+                <img src="images/gal6-550px.jpg" alt="gal image 6">
+                <figcaption>Image Text 6</figcaption>
+            </figure>
+        </section>
+
+    <footer>
+        <p>&copy; <span id="copyright-year"></span> | triweather.com | +1(208)757-8035 Rexburg, ID</p>    
+    </footer>
+    <script src="../lesson-7/scripts/currentdate.js"></script>
+    <script src="../lesson-7/scripts/hamburger.js"></script>
+</body>
+</html>
