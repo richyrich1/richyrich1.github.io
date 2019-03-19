@@ -1,5 +1,5 @@
 //For current weather
-var requestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=c01eef2a2c5a264a85454076af40230d&units=imperial';
+var requestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&appid=c01eef2a2c5a264a85454076af40230d&units=imperial';
 var weatherRequest = new XMLHttpRequest();
 weatherRequest.open('GET', requestURL, true);
 weatherRequest.responseType = 'json';
@@ -22,7 +22,7 @@ weatherRequest.onload = function()
 }
 
 //This is forecasting
-var forecastRequestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=c01eef2a2c5a264a85454076af40230d&units=imperial';
+var forecastRequestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&appid=c01eef2a2c5a264a85454076af40230d&units=imperial';
 var forecastRequest = new XMLHttpRequest();
 forecastRequest.open('GET', forecastRequestURL, true);
 forecastRequest.responseType = 'json';
