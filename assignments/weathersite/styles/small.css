@@ -167,11 +167,32 @@ a
     color: whitesmoke;
 }
 
-table, tr, td
+tr
 {
     border: solid 1px whitesmoke;
-    color: whitesmoke;
+    color: #666;
     text-align: center;
+    background-color: whitesmoke;
+
+}
+
+.dayList
+{
+    background-color: darkred;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.tempList
+{
+    background-color: coral;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.weatherIconList
+{
+    background-color: lightskyblue;
 }
 
 table
@@ -351,6 +372,31 @@ article > h1
 b, #prestonMotto, #sodaMotto, #fishMotto
 {
     color: black;
+}
+
+/*index.html*/
+.heroimghome
+{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../images/ironman1.jpg');
+    min-height: 100%;
+}
+
+.heroimghomemiddle
+{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../images/Ironman-random.jpg');
+    min-height: 100%;
 }
 
 @media only screen and (max-width: 500px)
