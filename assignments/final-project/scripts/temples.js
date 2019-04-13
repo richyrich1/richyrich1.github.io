@@ -1,4 +1,4 @@
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var requestURL = 'json/temples.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -8,7 +8,7 @@ request.onload = function()
     {
         var townData = request.response;
         // for Preston
-        document.getElementById("prestonMotto").innerHTML += townData.towns[4].motto;
+        document.getElementById("slcname").innerHTML += temples[0].name;
         document.getElementById("prestonFounded").innerHTML += townData.towns[4].yearFounded;
         document.getElementById("prestonPop").innerHTML += townData.towns[4].currentPopulation;
         document.getElementById("prestonAnnual").innerHTML += townData.towns[4].averageRainfall + "\"";  

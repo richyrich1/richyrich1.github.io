@@ -1,45 +1,88 @@
-[
+{
+    "temples" : [
     {
-        "name": "Rexburg Idaho Temple",
-        "location": "Rexburg, Idaho, United States",
-        "dedicated": "2008-02-10",
-        "closures": 
-        [
-            {
-                "start": "2019-04-06",
-                "date": "2019-04-06"
-            },
-            {
-                "start": "2019-04-15",
-                "end": "2019-04-29"
-            }
-
-        ],
-        "servives":
-        [
-            {
-                "name": "Clothing"
-            },
-            {
-                "name": "Food"
-            }
-        ] 
+        "name": "Salt Lake City, Utah Temple",
+        "address": "50 W North Temple St. - Salt Lake City, Utah 84150-9709 - United States",
+        "telephone": "(1) 801-240-2640",
+        "email": "saltlaketemple@lds.org",
+        "services": [
+                        "Clothing rental available",
+                        "Cafeteria available",
+                        "No patron housing available",
+                        "Distribution center nearby"
+                    ],
+        "history":  [
+                        "28 July 1847 - Announced",
+                        "14 February 1853 - Groundbreaking",
+                        "6 April 1893 - Dedicated"
+                    ],
+        
+        "events": [
+           
+        ]
     },
     {
-        "name": "",
-        "location": "",
-        "dedicated": "",
-        "closures": 
-        [
-            {
-                "start": "2019-04-06",
-                "date": "2019-04-06"
-            },
-            {
-                "start": "2019-04-15",
-                "end": "2019-04-29"
-            }
-
+        "name": "San Diego, California Temple",
+        "address": "7474 Charmant Dr. - San Diego, California 92122-5000 - United States",
+        "telephone": "(1) 858-622-0991",
+        "email": "sandiegotemple@lds.org",
+        "services": [
+                        "Clothing rental available",
+                        "Cafeteria available",
+                        "No patron housing available",
+                        "Distribution center nearby"
+                    ],
+        "history": [
+                        "07 April 1984 - Announced",
+                        "27 February 1988 - Groundbreaking",
+                        "25 April 1993 - Dedicated"
+                    ],
+        
+        "events" : [
+           
+        ]
+    },
+    {
+        "name": "Rome, Italy Temple",
+        "address": "Via di Settebagni 376 - Rome, Italy",
+        "telephone": "(39) 06-9480-5050",
+        "email": "romeitalytemple@lds.org",
+        "services": [
+                        "Clothing rental available",
+                        "Cafeteria available",
+                        "No patron housing available",
+                        "Distribution center nearby"
+                    ],  
+        "history": [
+                        "04 October 2008 - Announced",
+                        "23 October 2010 - Groundbreaking",
+                        "10 March 2009 - Dedicated"
+                    ],
+        
+        "events" : [
+            
+        ]
+    },
+    {
+        "name": "Cochabamba, Bolivia Temple",
+        "address": "Av. Melchor Urquidi 1500 - Cochabamba, Bolivia",
+        "telephone": "(591) 4-429-3161",
+        "email": 30458,
+        "services": [
+                        "Clothing rental available",
+                        "Cafeteria available",
+                        "No patron housing available",
+                        "Distribution center nearby"
+                    ],
+        "history": [
+                        "13 January 1995 - Announced",
+                        "10 November 1996 - Groundbreaking",
+                        "30 April 2000 - Dedicated"
+                    ],
+        
+        "events" : [
+            
         ]
     }
-]
+   ]
+  }
