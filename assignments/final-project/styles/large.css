@@ -1,0 +1,16 @@
+@media screen and (min-width: 761px)
+{
+    .hamburger
+    {
+        display: none;
+    }
+
+    /*header .hide
+    {
+        display: contents;
+        display: flex;
+        flex-direction: row;
+    }*/
+
+}
+
