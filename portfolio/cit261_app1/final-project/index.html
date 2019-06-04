@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Glass+Antiqua" rel="stylesheet">
+    <title>Temple Inn & Suites</title>
+    <link rel="icon" type="image/jpg" href="images/logo.JPG">
+</head>
+<body>
+    <header>
+        <section class="mainlogoclass">
+            <img id="mainlogo" src="images/logo.JPG" alt="mainLogo">
+            
+        </section>
+        <div class="motto">Call Your Dream Place, Home.</div>
+    </header>
+        <section class="menubar">
+            <nav>
+                <button onclick="toggleMenu()" class="hamburger">&#9776;</button>
+                <ul class="hide navstyle" id="fullmenu">
+                    <li id="active"><a href="#">Home</a></li>
+                    <li><a href="temple.html">Temples</a></li>
+                    <li><a href="reservation.html">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    
+        <div class="img1">
+            <div class="imgtext">
+                <span class="border">
+                    <a href="reservation.html">Make a Reservation</a>
+                </span>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <div class="saltlake">
+                <a href="temple.html"><img src="./images/salt-lake-city.jpg" alt="saltlake"></a>
+            </div>
+            <p>Salt Lake City, Utha Temple</p>
+        </section>
+        
+        <div class="img2"></div>
+        
+        <section class="section section-light">
+            <div class="sandiego">
+                <a href="temple.html"><img src="./images/san-diego.jpg" alt="sandiego"></a>
+            </div>
+            <p>San Diego, California Temple</p>
+        </section>
+
+        <div class="img3"></div>
+
+        <section class="section section-dark">
+            <div class="rome">
+                <a href="temple.html"><img src="./images/rome.jpg" alt="rome"></a>
+                <p>Rome, Italy Temple</p>
+            </div>
+        </section>
+
+        <div class="img4"></div>
+
+        <section class="section section-light">
+            <div class="cocha">
+                <a href="temple.html"><img src="./images/cochabamba.jpg" alt="cocha"></a>
+            </div>
+            <p>Cochabamba, Bolivia Temple</p>
+        </section>
+
+        <div class="img1">
+            <div class="imgtext">
+                <span class="border">
+                    <a href="reservation.html">Make a Reservation</a>
+                </span>
+            </div>
+        </div>
+
+    <footer>
+            <p>&copy; <span id="copyright-year"></span> | Temple Inn & Suites | +1(208)757-8035 Bethesda, MD | templesuites.com</p>        
+    </footer>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+</html>

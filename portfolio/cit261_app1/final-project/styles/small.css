@@ -1,0 +1,249 @@
+/*General*/
+body
+{
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 1.5rem;
+}
+
+#mainlogo
+{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 25%;
+}
+
+.motto
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.navstyle, .menubar
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: skyblue;
+    
+}
+
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#fullmenu li a:hover
+{
+    background-color: black;
+    color: whitesmoke
+}
+
+#active
+{
+    background-color: black;
+}
+
+.img1, .img2, .img3, .img4
+{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* 
+        fixed = parallax
+        scroll = normal
+    */
+    background-attachment: fixed;
+    
+}
+.img1
+{
+    background-image: url('../images/temple_hero4.jpg');
+    min-height: 400px;
+}
+
+.img2
+{
+    background-image: url('../images/temple_hero3.jpg');
+    min-height: 400px;
+}
+
+.img3
+{
+    background-image: url('../images/temple_hero1.jpg');
+    min-height: 400px;
+}
+
+.img4
+{
+    background-image: url('../images/temple_hero3.jpg');
+    min-height: 400px;
+}
+
+.section
+{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light
+{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark
+{
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.imgtext
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.imgtext .border
+{
+    background-color: #666;
+    color: #fff;
+    padding: 20px;
+
+}
+
+.imgtext .border .trans
+{
+    background-color: transparent;
+    color: #fff;
+}
+
+footer
+{
+    color: black;
+    text-align: center;   
+}
+
+/*reservations and contact pages*/
+form fieldset
+{
+    margin: 2rem 0;
+    border: 1ps solid skyblue;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend
+{
+    color: whitesmoke;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div
+{
+    display: block;
+    padding-top: 1rem;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+form label.top input, form label.top select
+{
+    display: block;
+    font-size: 1rem;
+    border: solid 1ps #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: whitesmoke;
+    width: 80%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0,0.1);
+}
+
+form label.sbs
+{
+    display: block;
+    padding: .75rem 0;
+    color: whitesmoke;
+}
+
+form input.submitBtn
+{
+    border: none;
+    background-color: skyblue;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required
+{
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid
+{
+    border-left: green solid 6px;
+}
+
+form fieldset
+{
+    text-align: left;
+}
+
+textarea
+{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 100%;
+}
+
+.servicelist
+{
+    text-align: left;
+}
+
+#fulltime
+{
+    display: flex;
+    justify-content: center;
+    color: #666;
+    margin: 0;
+}
+
+#reception
+{
+    display: flex;
+    justify-content: center;
+    color:whitesmoke;
+    margin: 0;
+}
+
+@media only screen and (max-width: 500px)
+{
+    ul .hide, .navstyle
+    {
+        display: none;
+
+    }
+}

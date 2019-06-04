@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Glass+Antiqua" rel="stylesheet">
+    <title>Temple Inn & Suites - Reservations</title>
+    <link rel="icon" type="image/jpg" href="images/logo.JPG">
+</head>
+<body>
+    <header>
+        <section class="mainlogoclass">
+            <img id="mainlogo" src="images/logo.JPG" alt="mainLogo">
+            
+        </section>
+        <div class="motto">Call Your Dream Place, Home.</div>
+    </header>
+        <section class="menubar">
+            <nav>
+                <button onclick="toggleMenu()" class="hamburger">&#9776;</button>
+                <ul class="hide navstyle" id="fullmenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temples</a></li>
+                    <li id="active"><a href="#">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+     
+        <div class="img1"></div>
+
+        <section class="section section-dark">
+            <form method="get" action="reservation-thank-you.html">
+                <fieldset>
+                    <legend>Guest Information</legend>
+                    <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Z]{.10}" minlength="5" maxlength="20" required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="some@gmail.com" maxlength="20"></label>
+                    <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" maxlength="10" required></label>
+                    <label class="top zipCode">Zip Code* <input type="zipCode" name="zipCode" maxlength="5" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Reservation Details</legend>
+                    <label class="top">Check-in <input type="date" name="stromDate"></label>
+                    <label class="top">Check-out <input type="date" name="stromDate"></label>
+                    
+                    <label class="top">Number of Guests (1 to 10): 
+                        <input type="range" name="rating" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <div id="ratingvalue">5</div><br> 
+                    </label>
+                    
+                    <label class="top">
+                        Temples
+                        <select name="city" id="">
+                            <option value="">Select a Temple Location</option>
+                            <option value="utah">Salt Lake City, UT</option>
+                            <option value="california">San Diego, CA</option>
+                            <option value="italy">Rome, Italy</option>
+                            <option value="bolivia">Cochabamba, Bolivia</option>
+                        </select>
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional/Special Requests</legend>
+                    <label class="top"><textarea name="textarea" id="specialRequest" cols="80" rows="10"></textarea></label>
+                </fieldset>
+
+                <input type="submit" value="Make Reservation" class="submitBtn">
+            </form>
+        </section>
+
+        <div class="img1"></div>
+
+    <footer>
+            <p>&copy; <span id="copyright-year"></span> | Temple Inn & Suites | +1(208)757-8035 Bethesda, MD | templesuites.com</p>        
+    </footer>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/range.js"></script>
+</body>
+</html>
