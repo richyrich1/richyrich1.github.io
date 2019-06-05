@@ -239,6 +239,11 @@ textarea
     margin: 0;
 }
 
+.hamburger
+{
+    display: none;
+}
+
 @media only screen and (max-width: 500px)
 {
     /* ul .hide, .navstyle
@@ -246,8 +251,5 @@ textarea
         display: none;
 
     } */
-    .hamburger
-    {
-        display: none;
-    }
+    
 }
