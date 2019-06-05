@@ -66,25 +66,25 @@ a
 }
 .img1
 {
-    background-image: url('../images/temple_hero4.jpg');
+    background-image: url('../images/jhl_hero.PNG');
     min-height: 400px;
 }
 
 .img2
 {
-    background-image: url('../images/temple_hero3.jpg');
+    background-image: url('../images/jhl_hero.PNG');
     min-height: 400px;
 }
 
 .img3
 {
-    background-image: url('../images/temple_hero1.jpg');
+    background-image: url('../images/jhl_hero.PNG');
     min-height: 400px;
 }
 
 .img4
 {
-    background-image: url('../images/temple_hero3.jpg');
+    background-image: url('../images/jhl_hero.PNG');
     min-height: 400px;
 }
 
@@ -241,9 +241,13 @@ textarea
 
 @media only screen and (max-width: 500px)
 {
-    ul .hide, .navstyle
+    /* ul .hide, .navstyle
     {
         display: none;
 
+    } */
+    .hamburger
+    {
+        display: none;
     }
 }
