@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Week 1 - Reading</title>
+</head>
+<body>
+      <script>
+            function showCongratulations(theButtonClicked)
+            {
+                document.getElementById("result_display").innerHTML = "Congratulations, you did it! <p>You got the page to update!</p>"
+                theButtonClicked.innerHTML = "Click Me Again!"
+            }
+        </script>
+    
+        <style>
+            body
+            {
+                background-color: darkslateblue;
+            }
+        </style>
+        
+      <button onclick="showCongratulations(this)">Click Me!</button>
+      <section id="result_display"></section>
+</body>
+</html>

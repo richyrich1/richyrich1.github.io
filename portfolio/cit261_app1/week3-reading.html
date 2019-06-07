@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Week 3 - Reading</title>
+</head>
+<body>
+   <p>🎈</p>
+   <script>
+      let p = document.querySelector("p");
+      let ballonSize;
+      function setBallonSize(newBallonSize) {
+         ballonSize = newBallonSize;
+         p.style.fontSize = ballonSize + "px";
+      }
+      setBallonSize(30);
+      function handleArrow(event) {
+         if (event.key == "ArrowUp") {
+            if (ballonSize > 80) {
+            p.textContent = "💥";
+            document.body.removeEventListener("keydown", handleArrow);
+            } else {
+            setBallonSize(ballonSize * 1.1);
+            event.preventDefault();
+            }
+         } else if (event.key == "ArrowDown") {
+            setBallonSize(ballonSize * 0.9);
+            event.preventDefault();
+         }
+      }
+      document.body.addEventListener("keydown", handleArrow);
+   </script>   
+</body>
+</html>

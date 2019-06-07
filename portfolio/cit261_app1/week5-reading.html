@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Week 5 - Reading</title>
+</head>
+<body>
+   <h1>Circular Dependencies</h1>
+   <p>The require function given earlier in this chapter supports this type of dependency cycle.</p>
+   <h2>Can you see how it handles cycles?</h2>
+   <p>- Since "require" adds modules before it starts loading whatever call is made, the current interface would be returned.</p>
+   <h2>What would go wrong when a module in a cycle does replace its default exports object?</h2>
+   <p>- If a module in a cycle replace its default exports object, another module receiving its interface value would receive the default instead of the intented value.</p>
+</body>
+</html>
