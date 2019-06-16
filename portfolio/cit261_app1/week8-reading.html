@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Week 8 - Reading - A JavaScript workbench</title>
+</head>
+<body>
+   
+      <textarea id="code">return "hi";</textarea>
+      <button id="button">Run</button>
+      <pre id="output"></pre>
+
+   <script>
+      //Your code goes here.
+      //I could not make it, so I look to the book's solution code, compared it to mine, and uploaded the book's solution: https://eloquentjavascript.net/code/#18.2
+      
+   document.querySelector("#button").addEventListener("click", () => 
+   {
+      let code = document.querySelector("#code").value;
+      let outputNode = document.querySelector("#output");
+      try 
+      {
+         let result = Function(code)();
+       outputNode.innerText = String(result);
+      } 
+      catch (e) 
+      {
+        outputNode.innerText = "Error: " + e;
+      }
+   });
+   </script>   
+</body>
+</html>
