@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Week 9 - Reading - Shapes</title>
+
+</head>
+<body>
+   
+   <canvas id="canvas" width="600" height="400">
+   </canvas>
+   <script>
+      var canvas = document.getElementById('canvas');
+      var context = canvas.getContext('2d');
+      context.beginPath();
+      context.moveTo(150,50);
+      context.lineTo(450,50);
+      context.lineTo(500,200);
+      context.lineTo(100,200);
+      context.closePath();
+      context.stroke();
+   </script>   
+</body>
+</html>
