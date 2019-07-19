@@ -1,0 +1,103 @@
+html
+{
+   font-family: "Goudy Old Style";-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;
+   font-weight: bold;
+   color: darkblue;
+}
+
+body
+{
+   margin:0;
+}
+
+.container
+{
+   padding-right:15px;
+   padding-left:15px;
+   margin-right:auto;
+   margin-left:auto;
+}
+
+#hero
+{
+   width: 100%;
+}
+
+.btn-addview, .btn-todoview, .btn-primary, .done
+{
+   background-color: #008CBA; 
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 12px;
+}
+
+.done
+{
+   background-color: green; 
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 12px;
+}
+
+.delete
+{
+   background-color: red; 
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 12px;
+}
+
+.form-container
+{
+   display: flex;
+   justify-content: center;
+}
+
+form fieldset
+{
+    margin: 2rem 0;
+    border: 1ps solid skyblue;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend
+{
+    color: darkblue;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div
+{
+    display: block;
+    padding-top: 1rem;
+    color: darkblue;
+    font-size: 1rem;
+}
+
+form fieldset
+{
+    text-align: left;
+}
+
+.footer
+{
+    color: darkblue;
+    text-align: center;   
+}
