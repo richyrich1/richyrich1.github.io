@@ -1,4 +1,135 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo.PNG">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.PNG" alt="logo" style="width: 100px; height: auto;">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Richard Chavez : Software Engineer</h1>
+                <p>Creating innovative solutions through code</p>
+                <a href="#experience" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="images/portfolio-pic.jpeg" alt="Rich" class="profile-img">
+                <div class="about-text">
+                    <p>My success result from my strong work ethic and versatility. I constantly look for opportunitites to improve and gain new skills every day.</p>
+                    <h3>Education</h3>
+                    <p>B.S. in Software Engineering, Brigham Young University - Idaho | Graduated Dec 2021</p>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Swift</li>
+                            <li>React</li>
+                            <li>FastAPI</li>
+                            <li>Selenium</li>
+                            <li>Splunk</li>
+                            <li>PowerBI</li>
+                            <li>Tableau</li>
+                            <li>KRL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <h2>My Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <h3>Tesla</h3>
+                    <h5>Application Support Engineer</h5>
+                    <h6>Mar 2023 - Dec 2024</h6>
+                    <ul>
+                        <li>Developed new features and scaled in-house applications used by different engineering groups supporting the Cybertruck production.</li>
+                        <li>Performed statistical analysis and built dasboards prioritizing requests from stakeholders to drive decision making on cost savings and scrap performance.</li>
+                        <li>Led training sessions across multiple organizations on how to use different systems.</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <h3>Applied Materials</h3>
+                    <h5>Application Support Engineer</h5>
+                    <h6>Jan 2022 - Mar 2023</h6>
+                    <ul>
+                        <li>Analyzed source code to troubleshoot software, data, and configuration problems according to technical specifications and system designs.</li>
+                        <li>Assisted support specialists and project managers in establishing issue priorities to ensure a timely response and solution.</li>
+                        <li>Analyzed and resolved customer issues, escalating to other departments as identified, working on the most compley and urgent support incidents.</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <h3>XLR8 Development</h3>
+                    <h5>Software Engineer</h5>
+                    <h6>Jul 2019 - Jun 2022</h6>
+                    <ul>
+                        <li>Assisted PMs with creating estiamtes, invoices, and onboarding new clients.</li>
+                        <li>Performed unit and integrated tests for 'Alfred' and 'Final Mile Solar' web applications.</li>
+                        <li>Contributed to the iOS and Android development of 'Pixingo', 'eFinalDate', and 'Story Tyke' mobile applications.</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <h3>Brigham Young University - Idaho</h3>
+                    <h5>Facilities Supervisor</h5>
+                    <h6>Nov 2020 - Dec 2021</h6>
+                    <ul>
+                        <li>Managed a crew of 10 people, conducted interviews, and trained new hires.</li>
+                        <li>Planned and executed different approaches to meet expectations.</li>
+                        <li>Submitted payroll.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="https://formspree.io/richyrich0794.com" method="POST">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Rich. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
@@ -16,19 +147,10 @@
         </div>
     </header>
     <main>
-        <!-- <h1>Richard Anthony Chavez</h1> -->
-        <h2>Portfolio Under Construction</h2>
-        <ul>
-            <!-- <li>CIT 230 <a href="cit230portal.html">Go to CIT 230 - Assignment Portal</a></li> -->
-            <!-- <li>CIT 261<a href="portfolio/index.html">Check My Portfolio</a></li> -->
-            <!-- <li>Java <a href="portfolio/java/javaportfolio.html">Check my JavaScript code</a></li>
-            <li>CSS <a href="portfolio/css/cssportfolio.html">Check my CSS code</a></li>
-            <li>C++ <a href="portfolio/c++/c++.html">Check my C++ codes</a></li>
-            <li>Fun stuff! <a href="portfolio/fun stuff/funstuff.html">Check it out!</a></li> -->
-        </ul>
+        
     </main>
     <footer>
         <p>&copy; 2019 | Richard Anthony Chavez</p>
     </footer>
 </body>
-</html>
+</html> -->
