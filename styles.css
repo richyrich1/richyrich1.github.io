@@ -170,6 +170,12 @@ nav ul li a:hover {
     background-color: #2980b9;
 }
 
+#my-form-status {
+    text-align: center;
+    margin-top: 10px;
+    color: var(--secondary-color);
+}
+
 /* Footer */
 footer {
     background-color: var(--text-color);
