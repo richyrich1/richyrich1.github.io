@@ -78,24 +78,28 @@ var form = document.getElementById("contact-form");
             experienceCards.forEach((card, index) => {
                 const jobTitle = card.querySelector('h3').textContent;
                 if (jobTitle === 'Application Support Engineer') {
+                    card.querySelector('h3').textContent = t.applicationSupportEngineer;
                     card.querySelector('h6').textContent = t.teslaDetails;
                     const responsibilities = card.querySelectorAll('ul li');
                     responsibilities.forEach((li, index) => {
                         li.textContent = t.teslaResponsibilities[index];
                     });
                 } else if (jobTitle === 'Application Support Engineer') {
+                    card.querySelector('h3').textContent = t.applicationSupportEngineer;
                     card.querySelector('h6').textContent = t.amatDetails;
                     const responsibilities = card.querySelectorAll('ul li');
                     responsibilities.forEach((li, index) => {
                         li.textContent = t.amatResponsibilities[index];
                     });
                 } else if (jobTitle === 'Software Engineer') {
+                    card.querySelector('h3').textContent = t.softwareEngineer;
                     card.querySelector('h6').textContent = t.xlr8Details;
                     const responsibilities = card.querySelectorAll('ul li');
                     responsibilities.forEach((li, index) => {
                         li.textContent = t.xlr8Responsibilities[index];
                     });
                 } else if (jobTitle === 'Facilities Supervisor') {
+                    card.querySelector('h3').textContent = t.facilitiesSupervisor;
                     card.querySelector('h6').textContent = t.byuiDetails;
                     const responsibilities = card.querySelectorAll('ul li');
                     responsibilities.forEach((li, index) => {
