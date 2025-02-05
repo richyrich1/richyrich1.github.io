@@ -1,0 +1,30 @@
+{
+    "en": {
+        "aboutMe": "About Me",
+        "education": "Education",
+        "educationDetails": "B.S. in Software Engineering, Brigham Young University - Idaho | Graduated Dec 2021",
+        "skills": "Skills",
+        "experience": "My Experience",
+        "applicationSupportEngineer": "Application Support Engineer",
+        "teslaDetails": "Mar 2023 - Dec 2024 | Austin, TX",
+        "teslaResponsibilities": [
+            "Developed new features and scaled in-house applications used by different engineering groups supporting the Cybertruck production.",
+            "Performed statistical analysis and built dashboards prioritizing requests from stakeholders to drive decision making on cost savings and scrap performance.",
+            "Led training sessions across multiple organizations on how to use different systems."
+        ]
+    },
+    "es": {
+        "aboutMe": "Sobre Mí",
+        "education": "Educación",
+        "educationDetails": "Licenciatura en Ingeniería de Software, Universidad Brigham Young - Idaho | Graduado en Dic 2021",
+        "skills": "Habilidades",
+        "experience": "Mi Experiencia",
+        "applicationSupportEngineer": "Ingeniero de Soporte de Aplicaciones",
+        "teslaDetails": "Mar 2023 - Dic 2024 | Austin, TX",
+        "teslaResponsibilities": [
+            "Desarrollé nuevas funciones y escalé aplicaciones internas utilizadas por diferentes grupos de ingeniería que apoyan la producción del Cybertruck.",
+            "Realicé análisis estadísticos y construí paneles de control priorizando las solicitudes de las partes interesadas para tomar decisiones sobre ahorros de costos y rendimiento de desechos.",
+            "Dirigí sesiones de capacitación en múltiples organizaciones sobre cómo usar diferentes sistemas."
+        ]
+    }
+}
