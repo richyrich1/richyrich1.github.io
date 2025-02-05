@@ -1,30 +1,96 @@
 {
     "en": {
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "contact": "Contact",
+        "heroTitle1": "Richard Chavez",
+        "heroTitle2": "Software Engineer",
+        "heroDescription": "Creating innovative solutions through code",
+        "ctaButton": "Most Recent Work Experience",
         "aboutMe": "About Me",
+        "aboutDescription": "My success results from my strong work ethic and versatility. I constantly look for opportunities to improve and gain new skills every day.",
         "education": "Education",
-        "educationDetails": "B.S. in Software Engineering, Brigham Young University - Idaho | Graduated Dec 2021",
+        "educationDetails": "B.S. in Software Engineering, Brigham Young University - Idaho | Graduated December 2021",
         "skills": "Skills",
-        "experience": "My Experience",
+        "experienceTitle": "My Experience",
         "applicationSupportEngineer": "Application Support Engineer",
         "teslaDetails": "Mar 2023 - Dec 2024 | Austin, TX",
         "teslaResponsibilities": [
             "Developed new features and scaled in-house applications used by different engineering groups supporting the Cybertruck production.",
             "Performed statistical analysis and built dashboards prioritizing requests from stakeholders to drive decision making on cost savings and scrap performance.",
             "Led training sessions across multiple organizations on how to use different systems."
-        ]
+        ],
+        "amatDetails": "Jan 2022 - Mar 2023 | Austin, TX",
+        "amatResponsibilities": [
+            "Analyzed source code to troubleshoot software, data, and configuration problems according to technical specifications and system designs.",
+            "Assisted support specialists and project managers in establishing issue priorities to ensure a timely response and solution.",
+            "Analyzed and resolved customer issues, escalating to other departments as identified, working on the most complex and urgent support incidents."
+        ],
+        "xlr8Details": "Jul 2019 - Jun 2022 | Remote",
+        "xlr8Responsibilities": [
+            "Assisted PMs with creating estimates, invoices, and onboarding new clients.",
+            "Performed unit and integrated tests for 'Alfred' and 'Final Mile Solar' web applications.",
+            "Contributed to the iOS and Android development of 'Pixingo', 'eFinalDate', and 'Story Tyke' mobile applications."
+        ],
+        "byuiDetails": "Nov 2020 - Dec 2021 | Rexburg, ID",
+        "byuiResponsibilities": [
+            "Managed a crew of 10 people, conducted interviews, and trained new hires.",
+            "Planned and executed different approaches to meet expectations.",
+            "Submitted payroll."
+        ],
+        "contactMe": "Contact Me",
+        "yourName": "Your Name",
+        "yourEmail": "Your Email",
+        "yourMessage": "Your Message",
+        "sendMessage": "Send Message",
+        "formStatus": "Thanks for your submission!"
     },
     "es": {
+        "home": "Inicio",
+        "about": "Sobre Mí",
+        "experience": "Experiencia",
+        "contact": "Contacto",
+        "heroTitle1": "Richard Chavez",
+        "heroTitle2": "Ingeniero de Software",
+        "heroDescription": "Creando soluciones innovadoras a través del código",
+        "ctaButton": "Experiencia Laboral Más Reciente",
         "aboutMe": "Sobre Mí",
+        "aboutDescription": "Mi éxito se debe a mi fuerte ética de trabajo y versatilidad. Constantemente busco oportunidades para mejorar y adquirir nuevas habilidades cada día.",
         "education": "Educación",
-        "educationDetails": "Licenciatura en Ingeniería de Software, Universidad Brigham Young - Idaho | Graduado en Dic 2021",
+        "educationDetails": "Licenciatura en Ingeniería de Software, Universidad Brigham Young - Idaho | Graduado en Diciembre 2021",
         "skills": "Habilidades",
-        "experience": "Mi Experiencia",
+        "experienceTitle": "Mi Experiencia",
         "applicationSupportEngineer": "Ingeniero de Soporte de Aplicaciones",
         "teslaDetails": "Mar 2023 - Dic 2024 | Austin, TX",
         "teslaResponsibilities": [
             "Desarrollé nuevas funciones y escalé aplicaciones internas utilizadas por diferentes grupos de ingeniería que apoyan la producción del Cybertruck.",
             "Realicé análisis estadísticos y construí paneles de control priorizando las solicitudes de las partes interesadas para tomar decisiones sobre ahorros de costos y rendimiento de desechos.",
             "Dirigí sesiones de capacitación en múltiples organizaciones sobre cómo usar diferentes sistemas."
-        ]
+        ],
+        "amatDetails": "Ene 2022 - Mar 2023 | Austin, TX",
+        "amatResponsibilities": [
+            "Analicé el código fuente para solucionar problemas de software, datos y configuración según las especificaciones técnicas y los diseños del sistema.",
+            "Asistí a especialistas en soporte y gerentes de proyectos en el establecimiento de prioridades de problemas para garantizar una respuesta y solución oportuna.",
+            "Analicé y resolví problemas de clientes, escalando a otros departamentos según se identificara, trabajando en los incidentes de soporte más complejos y urgentes."
+        ],
+        "xlr8Details": "Jul 2019 - Jun 2022 | Remoto",
+        "xlr8Responsibilities": [
+            "Asistí a los PMs con la creación de estimaciones, facturas y la incorporación de nuevos clientes.",
+            "Realicé pruebas unitarias e integradas para las aplicaciones web 'Alfred' y 'Final Mile Solar'.",
+            "Contribuí al desarrollo de iOS y Android de las aplicaciones móviles 'Pixingo', 'eFinalDate' y 'Story Tyke'."
+        ],
+        "byuiDetails": "Nov 2020 - Dic 2021 | Rexburg, ID",
+        "byuiResponsibilities": [
+            "Gestioné un equipo de 10 personas, realicé entrevistas y entrené a nuevos empleados.",
+            "Planifiqué y ejecuté diferentes enfoques para cumplir con las expectativas.",
+            "Presenté la nómina."
+        ],
+        "contactMe": "Contáctame",
+        "yourName": "Tu Nombre",
+        "yourEmail": "Tu Correo Electrónico",
+        "yourMessage": "Tu Mensaje",
+        "sendMessage": "Enviar Mensaje",
+        "formStatus": "¡Gracias por tu envío!"
     }
 }
