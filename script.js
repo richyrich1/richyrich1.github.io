@@ -113,7 +113,37 @@ var form = document.getElementById("contact-form");
             document.querySelector('input[name="email"]').placeholder = t.yourEmail;
             document.querySelector('textarea[name="message"]').placeholder = t.yourMessage;
             document.querySelector('.submit-btn').textContent = t.sendMessage;
-            document.querySelector('#my-form-status').textContent = t.formStatus;
         })
         .catch(error => console.error('Error loading translations:', error));
+
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const status = document.getElementById('my-form-status');
+        status.textContent = ''; // Clear the status message before submission
+
+        // Perform the form submission using Fetch API
+        fetch(this.action, {
+            method: this.method,
+            body: new FormData(this),
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                status.textContent = lang === 'es' ? '¡Gracias por tu envío!' : 'Thanks for your submission!';
+                this.reset(); // Clear the form fields
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        status.textContent = data["errors"].map(error => error["message"]).join(", ");
+                    } else {
+                        status.textContent = lang === 'es' ? 'Hubo un problema con tu envío.' : 'There was a problem with your submission.';
+                    }
+                });
+            }
+        }).catch(error => {
+            status.textContent = lang === 'es' ? 'Hubo un problema con tu envío.' : 'There was a problem with your submission.';
+        });
+    });
 });
