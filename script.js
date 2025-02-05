@@ -75,16 +75,18 @@ var form = document.getElementById("contact-form");
             document.querySelector('#experience h2').textContent = t.experienceTitle;
 
             const experienceCards = document.querySelectorAll('.experience-card');
-            experienceCards.forEach((card, index) => {
+            experienceCards.forEach((card) => {
                 const jobTitle = card.querySelector('h3').textContent;
-                if (jobTitle === 'Application Support Engineer') {
+                const company = card.querySelector('img').alt; // Use the alt attribute of the company logo to differentiate
+
+                if (jobTitle === 'Application Support Engineer' && company === 'tesla') {
                     card.querySelector('h3').textContent = t.applicationSupportEngineer;
                     card.querySelector('h6').textContent = t.teslaDetails;
                     const responsibilities = card.querySelectorAll('ul li');
                     responsibilities.forEach((li, index) => {
                         li.textContent = t.teslaResponsibilities[index];
                     });
-                } else if (jobTitle === 'Application Support Engineer') {
+                } else if (jobTitle === 'Application Support Engineer' && company === 'amat') {
                     card.querySelector('h3').textContent = t.applicationSupportEngineer;
                     card.querySelector('h6').textContent = t.amatDetails;
                     const responsibilities = card.querySelectorAll('ul li');
