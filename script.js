@@ -96,12 +96,19 @@ var form = document.getElementById("contact-form");
                     responsibilities.forEach((li, index) => {
                         li.textContent = t.amatResponsibilities[index];
                     });
-                } else if (jobTitle === 'Software Engineer') {
+                } else if (jobTitle === 'Software Engineer' && company === 'xlr8') {
                     card.querySelector('h3').textContent = t.softwareEngineer;
                     card.querySelector('h6').textContent = t.xlr8Details;
                     const responsibilities = card.querySelectorAll('ul li');
                     responsibilities.forEach((li, index) => {
                         li.textContent = t.xlr8Responsibilities[index];
+                    });
+                } else if (jobTitle === 'Information Systems Developer') {
+                    card.querySelector('h3').textContent = t.softwareEngineer;
+                    card.querySelector('h6').textContent = t.nbsDetails;
+                    const responsibilities = card.querySelectorAll('ul li');
+                    responsibilities.forEach((li, index) => {
+                        li.textContent = t.nbsResponsibilities[index];
                     });
                 } else if (jobTitle === 'Facilities Supervisor') {
                     card.querySelector('h3').textContent = t.facilitiesSupervisor;

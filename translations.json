@@ -66,6 +66,13 @@
         "applicationSupportEngineer": "Ingeniero de Soporte de Aplicaciones",
         "softwareEngineer": "Ingeniero de Software",
         "facilitiesSupervisor": "Supervisor de Instalaciones",
+        "nbsDetails": "Feb 2023 - Presente | Remoto",
+        "nbsResponsibilities": [
+            "Desarrollé aplicaciones para asegurar el rendimiento y eficacia de sistemas informaticos.",
+            "Mejoré diferentes procesos y analicé el código fuente para reducir y eliminar IS helpdesk tickets.",
+            "Diseñé nuevos procesos para aplicarlos a systemas actuales.",
+            "Actué como enlace entre IS/TI y otras áreas comerciales para ayudar a definir y cumplir con los requisitos comerciales y colaborar en proyectos."
+        ],
         "teslaDetails": "Mar 2023 - Dic 2024 | Austin, TX",
         "teslaResponsibilities": [
             "Desarrollé nuevas funciones y escalé aplicaciones internas utilizadas por diferentes grupos de ingeniería que apoyan la producción del Cybertruck.",
