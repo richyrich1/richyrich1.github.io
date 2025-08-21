@@ -103,7 +103,7 @@ var form = document.getElementById("contact-form");
                     responsibilities.forEach((li, index) => {
                         li.textContent = t.xlr8Responsibilities[index];
                     });
-                } else if (jobTitle === 'Information Systems Developer') {
+                } else if (jobTitle === 'Software Engineer' && company === 'nbs') {
                     card.querySelector('h3').textContent = t.softwareEngineer;
                     card.querySelector('h6').textContent = t.nbsDetails;
                     const responsibilities = card.querySelectorAll('ul li');
