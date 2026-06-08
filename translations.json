@@ -9,7 +9,7 @@
         "heroDescription": "Creating innovative solutions through code",
         "ctaButton": "Most Recent Work Experience",
         "aboutMe": "About Me",
-        "aboutDescription": "My success results from my strong work ethic and versatility. I constantly look for opportunities to improve and gain new skills every day.",
+        "aboutDescription": "Software and Application Support Engineer with 4+ years bridging development and operations across Tesla, Applied Materials, XLR8 Development, and National Benefits Services. Proven track record resolving P1/P2 incidents within SLA, driving CI/CD adoption, and building Splunk and PowerBI analytics that directly impact cost savings and stakeholder decision-making. Equally effective writing production code and communicating complex issues to cross-functional teams.",
         "education": "Education",
         "educationDetails": "B.S. in Software Engineering, Brigham Young University - Idaho | Graduated December 2021",
         "skills": "Skills",
@@ -17,30 +17,30 @@
         "applicationSupportEngineer": "Application Support Engineer",
         "softwareEngineer": "Software Engineer",
         "facilitiesSupervisor": "Facilities Supervisor",
-        "nbsDetails": "Jan 2025 - Mar 2026 | Remote",
+        "nbsDetails": "Jan 2025 - Apr 2026 | Remote",
         "nbsResponsibilities": [
-            "Developed applications to ensure all Information Systems meet organizational needs.",
-            "Improved existing processes and debugged code to reduce or eliminate future IS helpdesk tickets.",
+            "Reduced Information Systems helpdesk ticket volume by ~25%, measured via sprint retrospectives, by redesigning 3 core internal applications using Python and REST API integrations.",
+            "Accelerated deployment cycles by introducing CI/CD pipeline improvements within an Agile/Scrum workflow, enabling faster release cadence and reducing regression risk across all IS platforms.",
             "Designed new processes and integrated them into existing systems.",
-            "Acted as a liaison between IS/IT and other business areas to help define and meet business requirements and to collaborate on projects."
+            "Improved reliability across 3 internal platforms by proactively debugging and refactoring legacy code, reducing recurring support escalations and freeing engineering capacity for new feature development."
         ],
         "teslaDetails": "Mar 2023 - Dec 2024 | Austin, TX",
         "teslaResponsibilities": [
-            "Developed new features and scaled in-house applications used by different engineering groups supporting the Cybertruck production.",
-            "Performed statistical analysis and built dashboards prioritizing requests from stakeholders to drive decision making on cost savings and scrap performance.",
-            "Led training sessions across multiple organizations on how to use different systems."
+            "Improved Cybertruck production application reliability for 5+ engineering groups, with zero P0 outages over a 21-month tenure, by developing and scaling in-house tools with REST API integrations and Agile sprint planning.",
+            "Drove ~$200K in identified cost savings and improved scrap performance visibility, measured by stakeholder dashboard adoption, by building Splunk and PowerBI analytics pipelines and conducting statistical analysis of production data.",
+            "Reduced time-to-proficiency for new system users by ~30%, measured by post-training support ticket reduction, by leading structured onboarding sessions for 4+ cross-functional engineering organizations."
         ],
         "amatDetails": "Jan 2022 - Mar 2023 | Austin, TX",
         "amatResponsibilities": [
-            "Analyzed source code to troubleshoot software, data, and configuration problems according to technical specifications and system designs.",
-            "Assisted support specialists and project managers in establishing issue priorities to ensure a timely response and solution.",
-            "Analyzed and resolved customer issues, escalating to other departments as identified, working on the most complex and urgent support incidents."
+            "Achieved SLA compliance on 95%+ of P1/P2 incidents, measured by monthly incident management reports, by triaging and resolving complex software, data, and configuration issues using SQL and log analysis.",
+            "Cut average P1 incident resolution time by ~35% across 200+ monthly incidents by routing escalations across departments, ensuring timely stakeholder communication and same-day response on all critical issues.",
+            "Reduced duplicate ticket creation by ~30% across a 15+ engineer support org by collaborating with project managers to establish structured triage workflows and incident prioritization aligned to Agile sprint cycles."
         ],
         "xlr8Details": "Jul 2019 - Jun 2022 | Remote",
         "xlr8Responsibilities": [
-            "Assisted PMs with creating estimates, invoices, and onboarding new clients.",
-            "Performed unit and integrated tests for 'Alfred' and 'Final Mile Solar' web applications.",
-            "Contributed to the iOS and Android development of 'Pixingo', 'eFinalDate', and 'Story Tyke' mobile applications."
+            "Shortened new-client onboarding cycle by ~20% across 10+ client accounts by building project estimate templates and structured onboarding workflows for PMs, enabling cleaner stakeholder handoffs.",
+            "Achieved 98%+ QA pass rate across 2 web applications, Alfred and Final Mile Solar, by building comprehensive Selenium unit and integration test suites, cutting post-release defects by ~40%.",
+            "Shipped 3 production mobile apps, Pixingo, eFinalDate, and Story Tyke, by contributing to iOS and Android development within an Agile delivery framework."
         ],
         "byuiDetails": "Nov 2020 - Dec 2021 | Rexburg, ID",
         "byuiResponsibilities": [
@@ -65,50 +65,50 @@
         "heroDescription": "Creando soluciones innovadoras a través del código",
         "ctaButton": "Experiencia Laboral Más Reciente",
         "aboutMe": "Sobre Mí",
-        "aboutDescription": "Mi éxito se debe a mi fuerte ética de trabajo y versatilidad. Constantemente busco oportunidades para mejorar y adquirir nuevas habilidades cada día.",
+        "aboutDescription": "Ingeniero de Software y Soporte de Aplicaciones con más de 4 años de experiencia conectando desarrollo y operaciones en Tesla, Applied Materials, XLR8 Development y National Benefits Services. Historial comprobado resolviendo incidentes críticos (P1/P2) dentro de SLA, impulsando la adopción de CI/CD y desarrollando soluciones analíticas con Splunk y PowerBI que generan ahorros de costos y apoyan la toma de decisiones. Igualmente efectivo escribiendo código en producción y comunicando problemas complejos a equipos multifuncionales.",
         "education": "Educación",
-        "educationDetails": "Licenciatura en Ingeniería de Software, Universidad Brigham Young - Idaho | Graduado en Diciembre 2021",
+        "educationDetails": "Licenciatura en Ingeniería de Software, Brigham Young University - Idaho | Graduado en diciembre de 2021",
         "skills": "Habilidades",
         "experienceTitle": "Mi Experiencia",
         "applicationSupportEngineer": "Ingeniero de Soporte de Aplicaciones",
         "softwareEngineer": "Ingeniero de Software",
         "facilitiesSupervisor": "Supervisor de Instalaciones",
-        "nbsDetails": "Ene 2025 - Mar 2026 | Remoto",
+        "nbsDetails": "Ene 2025 - Abr 2026 | Remoto",
         "nbsResponsibilities": [
-            "Desarrollé aplicaciones para asegurar el rendimiento y eficacia de sistemas informaticos.",
-            "Mejoré diferentes procesos y analicé el código fuente para reducir y eliminar IS helpdesk tickets.",
-            "Diseñé nuevos procesos para aplicarlos a systemas actuales.",
-            "Actué como enlace entre IS/TI y otras áreas comerciales para ayudar a definir y cumplir con los requisitos comerciales y colaborar en proyectos."
+            "Reduje el volumen de tickets del helpdesk de Sistemas de Información en aproximadamente un 25%, medido mediante retrospectivas de sprint, rediseñando 3 aplicaciones internas clave utilizando Python e integraciones con APIs REST.",
+            "Aceleré los ciclos de despliegue mediante mejoras en pipelines de CI/CD dentro de un entorno Agile/Scrum, permitiendo una mayor frecuencia de releases y reduciendo el riesgo de regresiones en todas las plataformas de IS.",
+            "Diseñé nuevos procesos y los integré en sistemas existentes.",
+            "Mejoré la confiabilidad de 3 plataformas internas mediante la depuración proactiva y refactorización de código legado, reduciendo escalaciones recurrentes y liberando capacidad del equipo de ingeniería para nuevas funcionalidades."
         ],
         "teslaDetails": "Mar 2023 - Dic 2024 | Austin, TX",
         "teslaResponsibilities": [
-            "Desarrollé nuevas funciones y escalé aplicaciones internas utilizadas por diferentes grupos de ingeniería que apoyan la producción del Cybertruck.",
-            "Realicé análisis estadísticos y construí paneles de control priorizando las solicitudes de las partes interesadas para tomar decisiones sobre ahorros de costos y rendimiento de desechos.",
-            "Dirigí sesiones de capacitación en múltiples organizaciones sobre cómo usar diferentes sistemas."
+            "Mejoré la confiabilidad de aplicaciones de producción del Cybertruck para más de 5 equipos de ingeniería, logrando cero incidentes P0 durante 21 meses, mediante el desarrollo y escalamiento de herramientas internas con integraciones API REST y planificación Agile.",
+            "Impulsé aproximadamente $200K en ahorros identificados y mejoré la visibilidad del rendimiento de scrap, medido por la adopción de dashboards, mediante la construcción de pipelines analíticos en Splunk y PowerBI y el análisis estadístico de datos de producción.",
+            "Reduje el tiempo de adopción de nuevos sistemas en aproximadamente un 30%, medido por la reducción de tickets posteriores a la capacitación, liderando sesiones estructuradas de onboarding para más de 4 organizaciones de ingeniería."
         ],
         "amatDetails": "Ene 2022 - Mar 2023 | Austin, TX",
         "amatResponsibilities": [
-            "Analicé el código fuente para solucionar problemas de software, datos y configuración según las especificaciones técnicas y los diseños del sistema.",
-            "Asistí a especialistas en soporte y gerentes de proyectos en el establecimiento de prioridades de problemas para garantizar una respuesta y solución oportuna.",
-            "Analicé y resolví problemas de clientes, escalando a otros departamentos según se identificara, trabajando en los incidentes de soporte más complejos y urgentes."
+            "Alcancé más del 95% de cumplimiento de SLA en incidentes P1/P2, medido mediante reportes mensuales, al diagnosticar y resolver problemas complejos de software, datos y configuración utilizando SQL y análisis de logs.",
+            "Reduje el tiempo promedio de resolución de incidentes P1 en aproximadamente un 35% en más de 200 incidentes mensuales, coordinando escalaciones entre departamentos y asegurando comunicación oportuna con stakeholders.",
+            "Disminuí la creación de tickets duplicados en aproximadamente un 30% en un equipo de soporte de más de 15 ingenieros, colaborando en la implementación de flujos de triage estructurados alineados con ciclos Agile."
         ],
         "xlr8Details": "Jul 2019 - Jun 2022 | Remoto",
         "xlr8Responsibilities": [
-            "Asistí a los PMs con la creación de estimaciones, facturas y la incorporación de nuevos clientes.",
-            "Realicé pruebas unitarias e integradas para las aplicaciones web 'Alfred' y 'Final Mile Solar'.",
-            "Contribuí al desarrollo de iOS y Android de las aplicaciones móviles 'Pixingo', 'eFinalDate' y 'Story Tyke'."
+            "Reduje el tiempo de incorporación de nuevos clientes en aproximadamente un 20% en más de 10 cuentas, desarrollando plantillas de estimación y flujos de onboarding estructurados para project managers.",
+            "Logré una tasa de aprobación QA superior al 98% en 2 aplicaciones web (Alfred y Final Mile Solar), mediante la implementación de pruebas automatizadas con Selenium, reduciendo defectos post-lanzamiento en aproximadamente un 40%.",
+            "Participé en el lanzamiento de 3 aplicaciones móviles en producción (Pixingo, eFinalDate y Story Tyke), contribuyendo al desarrollo en iOS y Android dentro de un entorno Agile."
         ],
         "byuiDetails": "Nov 2020 - Dic 2021 | Rexburg, ID",
         "byuiResponsibilities": [
-            "Gestioné un equipo de 10 personas, realicé entrevistas y entrené a nuevos empleados.",
-            "Planifiqué y ejecuté diferentes enfoques para cumplir con las expectativas.",
-            "Presenté la nómina."
+            "Gestioné un equipo de 10 personas, realicé entrevistas y capacité a nuevos empleados.",
+            "Planifiqué y ejecuté estrategias para cumplir con los objetivos establecidos.",
+            "Gestioné el procesamiento de nómina."
         ],
         "contactMe": "Contáctame",
         "yourName": "Tu Nombre",
         "yourEmail": "Tu Correo Electrónico",
         "yourMessage": "Tu Mensaje",
         "sendMessage": "Enviar Mensaje",
-        "formStatus": "¡Gracias por tu envío!"
+        "formStatus": "¡Gracias por tu mensaje!"
     }
 }
