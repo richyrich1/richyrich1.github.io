@@ -9,7 +9,7 @@
         "heroDescription": "Creating innovative solutions through code",
         "ctaButton": "Most Recent Work Experience",
         "aboutMe": "About Me",
-        "aboutDescription": "Software and Application Support Engineer with 4+ years bridging development and operations across Tesla, Applied Materials, XLR8 Development, and National Benefits Services. Proven track record resolving P1/P2 incidents within SLA, driving CI/CD adoption, and building Splunk and PowerBI analytics that directly impact cost savings and stakeholder decision-making. Equally effective writing production code and communicating complex issues to cross-functional teams.",
+        "aboutDescription": "SSoftware and Application Support Engineer with 4+ years bridging development and operations across Tesla, Harris Computer, XLR8 Development, and National Benefits Services. Proven track record resolving P1/P2 incidents within SLA, driving CI/CD adoption, and building Splunk and PowerBI analytics that directly impact cost savings and stakeholder decision-making. Equally effective writing production code and communicating complex issues to cross-functional teams.",
         "education": "Education",
         "educationDetails": "B.S. in Software Engineering, Brigham Young University - Idaho | Graduated December 2021",
         "skills": "Skills",
@@ -17,36 +17,37 @@
         "applicationSupportEngineer": "Application Support Engineer",
         "softwareEngineer": "Software Engineer",
         "facilitiesSupervisor": "Facilities Supervisor",
-        "nbsDetails": "Jan 2025 - Apr 2026 | Remote",
+        "harrisDetails": "Mar 2026 - Present | Remote",
+        "harrisResponsibilities": [
+            "Achieved SLA compliance on 95%+ of P1/P2 incidents, measured by monthly incident management reports, by triaging and resolving complex software, data, and configuration issues using SQL and log analysis.",
+            "Cut average P1 incident resolution time by ~35% across 200+ monthly incidents by routing escalations across departments, ensuring timely stakeholder communication and same-day response on all critical issues.",
+            "Reduced duplicate ticket creation by ~30% across a 15+ engineer support org by collaborating with project managers to establish structured triage workflows and incident prioritization aligned to Agile sprint cycles."
+        ],
+        "nbsDetails": "Jan 2025 - Mar 2026 | Remote",
         "nbsResponsibilities": [
             "Reduced Information Systems helpdesk ticket volume by ~25%, measured via sprint retrospectives, by redesigning 3 core internal applications using Python and REST API integrations.",
             "Accelerated deployment cycles by introducing CI/CD pipeline improvements within an Agile/Scrum workflow, enabling faster release cadence and reducing regression risk across all IS platforms.",
             "Designed new processes and integrated them into existing systems.",
             "Improved reliability across 3 internal platforms by proactively debugging and refactoring legacy code, reducing recurring support escalations and freeing engineering capacity for new feature development."
         ],
-        "teslaDetails": "Mar 2023 - Dec 2024 | Austin, TX",
+        "teslaDetails": "Jan 2022 - Dec 2024 | Austin, TX",
         "teslaResponsibilities": [
             "Improved Cybertruck production application reliability for 5+ engineering groups, with zero P0 outages over a 21-month tenure, by developing and scaling in-house tools with REST API integrations and Agile sprint planning.",
             "Drove ~$200K in identified cost savings and improved scrap performance visibility, measured by stakeholder dashboard adoption, by building Splunk and PowerBI analytics pipelines and conducting statistical analysis of production data.",
             "Reduced time-to-proficiency for new system users by ~30%, measured by post-training support ticket reduction, by leading structured onboarding sessions for 4+ cross-functional engineering organizations."
         ],
-        "amatDetails": "Jan 2022 - Mar 2023 | Austin, TX",
-        "amatResponsibilities": [
-            "Achieved SLA compliance on 95%+ of P1/P2 incidents, measured by monthly incident management reports, by triaging and resolving complex software, data, and configuration issues using SQL and log analysis.",
-            "Cut average P1 incident resolution time by ~35% across 200+ monthly incidents by routing escalations across departments, ensuring timely stakeholder communication and same-day response on all critical issues.",
-            "Reduced duplicate ticket creation by ~30% across a 15+ engineer support org by collaborating with project managers to establish structured triage workflows and incident prioritization aligned to Agile sprint cycles."
-        ],
-        "xlr8Details": "Jul 2019 - Jun 2022 | Remote",
+        "xlr8Details": "Jul 2019 - Jan 2022 | Remote",
         "xlr8Responsibilities": [
             "Shortened new-client onboarding cycle by ~20% across 10+ client accounts by building project estimate templates and structured onboarding workflows for PMs, enabling cleaner stakeholder handoffs.",
             "Achieved 98%+ QA pass rate across 2 web applications, Alfred and Final Mile Solar, by building comprehensive Selenium unit and integration test suites, cutting post-release defects by ~40%.",
             "Shipped 3 production mobile apps, Pixingo, eFinalDate, and Story Tyke, by contributing to iOS and Android development within an Agile delivery framework."
         ],
-        "byuiDetails": "Nov 2020 - Dec 2021 | Rexburg, ID",
+        "byuiDetails": "Dec 2018 - Dec 2021 | Rexburg, ID",
         "byuiResponsibilities": [
-            "Managed a crew of 10 people, conducted interviews, and trained new hires.",
-            "Planned and executed different approaches to meet expectations.",
-            "Submitted payroll."
+            "Supervised, trained, and evaluated groups of part-time and student workers.",
+            "Ensured classrooms, common spaces are properly set up and maintained.",
+            "Oversaw routine custodial work and building maintenance.",
+            "Monitored facilities for safety, enforced university dress and grooming standards, and adhered to university policies."
         ],
         "contactMe": "Contact Me",
         "yourName": "Your Name",
@@ -73,32 +74,32 @@
         "applicationSupportEngineer": "Ingeniero de Soporte de Aplicaciones",
         "softwareEngineer": "Ingeniero de Software",
         "facilitiesSupervisor": "Supervisor de Instalaciones",
-        "nbsDetails": "Ene 2025 - Abr 2026 | Remoto",
+        "harrisDetails": "Mar 2026 - Presente | Remote",
+        "harrisResponsibilities": [
+            "Alcancé más del 95% de cumplimiento de SLA en incidentes P1/P2, medido mediante reportes mensuales, al diagnosticar y resolver problemas complejos de software, datos y configuración utilizando SQL y análisis de logs.",
+            "Reduje el tiempo promedio de resolución de incidentes P1 en aproximadamente un 35% en más de 200 incidentes mensuales, coordinando escalaciones entre departamentos y asegurando comunicación oportuna con stakeholders.",
+            "Disminuí la creación de tickets duplicados en aproximadamente un 30% en un equipo de soporte de más de 15 ingenieros, colaborando en la implementación de flujos de triage estructurados alineados con ciclos Agile."
+        ],
+        "nbsDetails": "Ene 2025 - Mar 2026 | Remoto",
         "nbsResponsibilities": [
             "Reduje el volumen de tickets del helpdesk de Sistemas de Información en aproximadamente un 25%, medido mediante retrospectivas de sprint, rediseñando 3 aplicaciones internas clave utilizando Python e integraciones con APIs REST.",
             "Aceleré los ciclos de despliegue mediante mejoras en pipelines de CI/CD dentro de un entorno Agile/Scrum, permitiendo una mayor frecuencia de releases y reduciendo el riesgo de regresiones en todas las plataformas de IS.",
             "Diseñé nuevos procesos y los integré en sistemas existentes.",
             "Mejoré la confiabilidad de 3 plataformas internas mediante la depuración proactiva y refactorización de código legado, reduciendo escalaciones recurrentes y liberando capacidad del equipo de ingeniería para nuevas funcionalidades."
         ],
-        "teslaDetails": "Mar 2023 - Dic 2024 | Austin, TX",
+        "teslaDetails": "Ene 2022 - Dic 2024 | Austin, TX",
         "teslaResponsibilities": [
             "Mejoré la confiabilidad de aplicaciones de producción del Cybertruck para más de 5 equipos de ingeniería, logrando cero incidentes P0 durante 21 meses, mediante el desarrollo y escalamiento de herramientas internas con integraciones API REST y planificación Agile.",
             "Impulsé aproximadamente $200K en ahorros identificados y mejoré la visibilidad del rendimiento de scrap, medido por la adopción de dashboards, mediante la construcción de pipelines analíticos en Splunk y PowerBI y el análisis estadístico de datos de producción.",
             "Reduje el tiempo de adopción de nuevos sistemas en aproximadamente un 30%, medido por la reducción de tickets posteriores a la capacitación, liderando sesiones estructuradas de onboarding para más de 4 organizaciones de ingeniería."
         ],
-        "amatDetails": "Ene 2022 - Mar 2023 | Austin, TX",
-        "amatResponsibilities": [
-            "Alcancé más del 95% de cumplimiento de SLA en incidentes P1/P2, medido mediante reportes mensuales, al diagnosticar y resolver problemas complejos de software, datos y configuración utilizando SQL y análisis de logs.",
-            "Reduje el tiempo promedio de resolución de incidentes P1 en aproximadamente un 35% en más de 200 incidentes mensuales, coordinando escalaciones entre departamentos y asegurando comunicación oportuna con stakeholders.",
-            "Disminuí la creación de tickets duplicados en aproximadamente un 30% en un equipo de soporte de más de 15 ingenieros, colaborando en la implementación de flujos de triage estructurados alineados con ciclos Agile."
-        ],
-        "xlr8Details": "Jul 2019 - Jun 2022 | Remoto",
+        "xlr8Details": "Jul 2019 - Ene 2022 | Remoto",
         "xlr8Responsibilities": [
             "Reduje el tiempo de incorporación de nuevos clientes en aproximadamente un 20% en más de 10 cuentas, desarrollando plantillas de estimación y flujos de onboarding estructurados para project managers.",
             "Logré una tasa de aprobación QA superior al 98% en 2 aplicaciones web (Alfred y Final Mile Solar), mediante la implementación de pruebas automatizadas con Selenium, reduciendo defectos post-lanzamiento en aproximadamente un 40%.",
             "Participé en el lanzamiento de 3 aplicaciones móviles en producción (Pixingo, eFinalDate y Story Tyke), contribuyendo al desarrollo en iOS y Android dentro de un entorno Agile."
         ],
-        "byuiDetails": "Nov 2020 - Dic 2021 | Rexburg, ID",
+        "byuiDetails": "Dic 2018 - Dic 2021 | Rexburg, ID",
         "byuiResponsibilities": [
             "Gestioné un equipo de 10 personas, realicé entrevistas y capacité a nuevos empleados.",
             "Planifiqué y ejecuté estrategias para cumplir con los objetivos establecidos.",

@@ -89,12 +89,12 @@ var form = document.getElementById("contact-form");
                     responsibilities.forEach((li, index) => {
                         li.textContent = t.teslaResponsibilities[index];
                     });
-                } else if (jobTitle === 'Application Support Engineer' && company === 'amat') {
+                } else if (jobTitle === 'Application Support Engineer' && company === 'harris') {
                     card.querySelector('h3').textContent = t.applicationSupportEngineer;
-                    card.querySelector('h6').textContent = t.amatDetails;
+                    card.querySelector('h6').textContent = t.harrisDetails;
                     const responsibilities = card.querySelectorAll('ul li');
                     responsibilities.forEach((li, index) => {
-                        li.textContent = t.amatResponsibilities[index];
+                        li.textContent = t.harrisResponsibilities[index];
                     });
                 } else if (jobTitle === 'Software Engineer' && company === 'xlr8') {
                     card.querySelector('h3').textContent = t.softwareEngineer;
